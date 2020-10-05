@@ -1,0 +1,38 @@
+cd 'C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Results\Total Hamiltonian'
+
+set title 'Energy Gap for various {/Symbol D} - odd numbers - total hamiltonian'
+set ylabel 'E_g/(J*L)'
+set xlabel '1/L'    
+set key left top
+set xrange [0:0.55]
+set yrange[-0.1:0.55]
+start=0.0; end=2.; inc=0.5
+i = 1
+array A[5]; a=start-inc; while(a<end){ A[i] = a=a+inc; i = i+1}
+
+#function to fit	
+fstr(N) = sprintf("f%d(x) =a%d*x**3 + b%d*x**2 + c%d*x + d%d", N, N, N, N, N)
+
+# files to fit
+fitstr(N) = sprintf("fit f%d(x) 'Egap_even__Delta=%.2f.txt' via a%d, b%d, c%d, d%d",N,A[N],N,N,N,N) 	
+
+#Fitting
+do for[i=1:5]{
+	eval(fstr(i))
+	eval(fitstr(i))
+}
+
+#plot
+plotstr = "plot "
+do for[i=1:5]{
+	#t = sprintf("f%d(x) = %.1f*x^3 + %.1f*x^2 + %.1f^x + %.1f", i, value(sprintf('a%d', i)), value(sprintf('b%d', i)), value(sprintf('c%d', i)), value(sprintf('d%d', i)))
+	#plotstr = plotstr.sprintf("f%d(x) w l t '%s', ", i, t).\
+       #plotstr = plotstr.sprintf("f%d(x), 'file%d.dat'%s ", i, i, (i == n) ? "" : ", ")
+	plotstr = plotstr.sprintf("f%d(x) dt 2 notitle, 'Egap_even__Delta=%.2f.txt' w p ps 0.75 title '{/Symbol D}=%.2f'%s", i, A[i], A[i], (i == 5) ? "" : ", ")
+}
+
+eval(plotstr)
+
+#plot for [i in list] 'Egap_even__Delta='.i.'.txt' w lp dt 2 ps 0.75  title 'Even: {/Symbol D}='.i\
+#fit for [i in list] 
+#, for [i in list] 'Egap_odd__Delta='.i.'.txt' w lp dt 2 ps 0.5 title 'odd: {/Symbol D}='.i

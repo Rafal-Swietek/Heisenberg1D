@@ -1,0 +1,24 @@
+cd 'C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Results'
+
+set key right top
+set autoscale xy
+
+L = 8
+delta = 1
+T = 0.063
+
+set title sprintf('Dynamical Spin Structure Factor for {/Symbol D} = %0.0f and T = %0.3f', delta, T)
+
+set xlabel '{/*1.2 {/Symbol w}}'
+set ylabel '{/*1.2 S(q,{/Symbol w})}'
+
+#set palette defined (0 "blue", 0.25*L "royalblue", 0.5*L "cyan", 0.75*L "sea-green", L "green", 1.25*L "dark-yellow", 1.5*L "yellow", 1.75*L "orange", 2*L "red")
+
+stats sprintf("SSF-snap_T=%0.3f_Delta=%0.0f.txt",T,delta) u 2:3 nooutput # calculates the number of blocks (separated by header)
+n = STATS_blocks # number of blocks - plots for different times
+
+set cblabel sprintf("%d",n)
+
+plot for[in=0:n-1:2] sprintf("SSF-snap_T=%0.3f_Delta=%0.0f.txt",T,delta) i in u 2:3 w l title sprintf("q = 2{/Symbol p}/L*%d", in)
+#plot sprintf("SSF-snap_T=%0.3f_Delta=%0.0f.txt",T,delta) i L/4 u 2:3 w l title "q = 0.5{/Symbol p}"
+

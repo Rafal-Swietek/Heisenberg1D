@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp"
+           line_no="798"
+           routine="Heisenberg1D::spinStructureFactor"
+           is_vectorized="0"
+           self_time="0.000000E+000"
+           total_time="4.631155E-002"
+           trip_counts=""
+           func_instance="293"
+           priority="0"/>
+  <hotspot filename="C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp"
+           line_no="793"
+           routine="Heisenberg1D::spinStructureFactor"
+           is_vectorized="0"
+           self_time="0.000000E+000"
+           total_time="4.631155E-002"
+           trip_counts=""
+           func_instance="295"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="-1"
+           routine="func@0x1401494bc"
+           is_vectorized="0"
+           self_time="0.000000E+000"
+           total_time="8.733747E-003"
+           trip_counts=""
+           func_instance="301"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="-1"
+           routine="func@0x1401494bc"
+           is_vectorized="0"
+           self_time="0.000000E+000"
+           total_time="8.733747E-003"
+           trip_counts=""
+           func_instance="303"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="-1"
+           routine="func@0x1401494bc"
+           is_vectorized="0"
+           self_time="0.000000E+000"
+           total_time="8.733747E-003"
+           trip_counts=""
+           func_instance="304"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

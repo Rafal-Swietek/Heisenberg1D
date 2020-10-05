@@ -1,0 +1,20 @@
+﻿  Heisenberg1D.cpp
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp(37,20): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp(45,35): warning C4244: 'argument': conversion from 'double' to 'const arma::uword', possible loss of data
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp(57,20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp(67,35): warning C4244: 'argument': conversion from 'double' to 'const arma::uword', possible loss of data
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp(214,29): warning C4101: 'e': unreferenced local variable
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp(257,33): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp(593,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp(597,38): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp(598,76): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp(805,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp(881,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp(956,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp(962,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp(1056,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp(1145,8): warning C4244: 'initializing': conversion from 'arma::uword' to 'int', possible loss of data
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp(1202,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp(1257,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp(1313,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  BudowaBazy.vcxproj -> C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe

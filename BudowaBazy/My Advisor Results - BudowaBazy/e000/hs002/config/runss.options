@@ -1,0 +1,19 @@
+-r
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\My Advisor Results - BudowaBazy\e000\hs002
+--mrte-mode=auto
+--follow-child
+--return-app-exitcode
+--strategy=ld-linux.so.2:notrace:notrace,ld-linux-x86-64.so.2:notrace:notrace
+--interval=10
+--data-limit-mb=500
+--stack-stitching
+--stackwalk=offline
+--mrte-type=java,dotnet,python
+--type=cpu:stack
+--opencl-trace-mode=default
+--search-dir
+sym=C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug
+--search-dir
+bin=C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug
+--
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe

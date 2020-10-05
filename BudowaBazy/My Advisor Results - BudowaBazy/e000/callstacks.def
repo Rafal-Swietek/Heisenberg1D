@@ -1,0 +1,146 @@
+# callstacks file version: 6
+#    rowid	    parent	       rva	 loop	 system	                                function	binary	instance_start_rva	instance_size	instance_end_rva	finst_rowid	roi	is_inlined	jit_method_id
+         1	        -1	   1059232	    0	      1	                         [OpenMP worker]	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	1059232	480	0	11	0	0	0
+         2	        -1	    446032	    0	      1	                      RtlUserThreadStart	C:\WINDOWS\SYSTEM32\ntdll.dll	446000	72	0	20	0	0	0
+         3	         2	     97235	    0	      1	                     BaseThreadInitThunk	C:\WINDOWS\System32\KERNEL32.DLL	97216	55	0	1	0	0	0
+         4	         3	   1165366	    0	      1	          tpss_ThreadStartRoutineWrapper	C:\Program Files (x86)\IntelSWTools\Advisor 2020\bin64\tpsstool.dll	1163936	2043	0	100	0	0	0
+         5	         4	   1059574	    0	      1	                         [OpenMP worker]	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	1059232	480	0	11	0	0	0
+         6	       122	    594625	    1	      1	[Loop at line 5932 in _kmp_launch_thread]	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	594613	311		12	0	0	0
+         7	         6	    307882	    0	      1	                      __kmp_fork_barrier	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	306768	3264	0	14	0	0	0
+         8	       124	    300743	    1	      1	[Loop at line 361 in _kmp_hyper_barrier_release]	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	299948	553		15	0	0	0
+         9	         8	   1058571	    0	      1	                              _kmp_yield	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	1058560	32	0	17	0	0	0
+        10	       139	    288912	    1	      1	           [Loop@0x180046882 in SleepEx]	C:\WINDOWS\System32\KERNELBASE.dll	288898	42		27	0	0	0
+        11	        10	    640756	    0	      1	                        NtDelayExecution	C:\WINDOWS\SYSTEM32\ntdll.dll	640736	21	0	21	0	0	0
+        12	       139	    288913	    1	      1	           [Loop@0x180046882 in SleepEx]	C:\WINDOWS\System32\KERNELBASE.dll	288898	42		27	0	0	0
+        13	       124	    300293	    1	      1	[Loop at line 361 in _kmp_hyper_barrier_release]	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	299948	553		15	0	0	0
+        14	       124	    300044	    1	      1	[Loop at line 361 in _kmp_hyper_barrier_release]	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	299948	553		15	0	0	0
+        15	         9	    288736	    0	      1	                                   Sleep	C:\WINDOWS\System32\KERNELBASE.dll	288736	7	0	29	0	0	0
+        16	         8	   1058560	    0	      1	                              _kmp_yield	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	1058560	32	0	17	0	0	0
+        17	       124	    300050	    1	      1	[Loop at line 361 in _kmp_hyper_barrier_release]	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	299948	553		15	0	0	0
+        18	        -1	    467439	    0	      0	                        func@0x1400721ef	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	467439	5	0	283	0	0	0
+        19	         3	   1385672	    0	      0	                          mainCRTStartup	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1385664	14	0	284	0	0	0
+        20	        19	   1384925	    0	      0	                        func@0x1401521d0	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1384912	19	0	285	0	0	0
+        21	        20	   1385245	    0	      0	                        func@0x1401521f0	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1384944	414	0	286	0	0	0
+        22	        21	   1385528	    0	      0	                        func@0x140152400	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1385472	62	0	287	0	0	0
+        23	        22	   1370563	    0	      0	                                    main	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1370176	867	0	288	0	0	0
+        24	        23	   1213033	    0	      0	                       Compute_subblocks	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1212864	365	0	289	0	0	0
+        25	        24	   1214310	    0	      0	           Heisenberg1D::Diagonalization	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1213760	942	0	290	0	0	0
+        26	        25	   1170328	    0	      0	                     std::locale::locale	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1170176	197	0	291	0	0	0
+        27	        26	   1239462	    0	      0	                 std::locale::_Construct	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1239312	473	0	292	0	0	0
+        28	        27	     32127	    0	      1	                 std::_Locinfo::_Locinfo	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	31952	201	0	2	0	0	0
+        29	        28	    116761	    0	      1	            std::_Locinfo::_Locinfo_ctor	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	116656	111	0	3	0	0	0
+        30	       118	    116524	    1	      1	[Loop@0x18001c6ed in std::_Locinfo::_Locinfo_Addcats]	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	116461	66		4	0	0	0
+        31	        30	    401282	    0	      1	                               setlocale	C:\WINDOWS\SYSTEM32\ucrtbased.dll	401232	56	0	32	0	0	0
+        32	        31	    399705	    0	      1	                        func@0x180061910	C:\WINDOWS\SYSTEM32\ucrtbased.dll	399632	79	0	37	0	0	0
+        33	        32	    399589	    0	      1	                        func@0x1800618b0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	399536	79	0	38	0	0	0
+        34	        33	    399772	    0	      1	                        func@0x180061970	C:\WINDOWS\SYSTEM32\ucrtbased.dll	399728	1064	0	39	0	0	0
+        35	        34	    401196	    0	      1	                        func@0x180061da0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	400800	422	0	41	0	0	0
+        36	        35	    409814	    0	      1	                              wsetlocale	C:\WINDOWS\SYSTEM32\ucrtbased.dll	409472	356	0	48	0	0	0
+        37	        36	    402600	    0	      1	                        func@0x180062470	C:\WINDOWS\SYSTEM32\ucrtbased.dll	402544	63	0	50	0	0	0
+        38	        37	    401964	    0	      1	                        func@0x180062200	C:\WINDOWS\SYSTEM32\ucrtbased.dll	401920	61	0	51	0	0	0
+        39	        38	    403541	    0	      1	                        func@0x180062760	C:\WINDOWS\SYSTEM32\ucrtbased.dll	403296	254	0	52	0	0	0
+        40	        39	    402425	    0	      1	                        func@0x1800623b0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	402352	79	0	53	0	0	0
+        41	        40	    402124	    0	      1	                        func@0x1800622a0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	402080	61	0	54	0	0	0
+        42	        41	    403708	    0	      1	                        func@0x1800628a0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	403616	357	0	55	0	0	0
+        43	        42	    411207	    0	      1	                        func@0x1800645f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	411120	1149	0	56	0	0	0
+        44	        43	    412447	    0	      1	                        func@0x180064a80	C:\WINDOWS\SYSTEM32\ucrtbased.dll	412288	1810	0	58	0	0	0
+        45	        44	    406891	    0	      1	                        func@0x180063330	C:\WINDOWS\SYSTEM32\ucrtbased.dll	406320	1622	0	62	0	0	0
+        46	        45	    383085	    0	      1	                        func@0x18005d7b0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	382896	996	0	63	0	0	0
+        47	        46	    379924	    0	      1	                        func@0x18005cb60	C:\WINDOWS\SYSTEM32\ucrtbased.dll	379744	247	0	64	0	0	0
+        48	        47	    366032	    0	      1	                        func@0x180059580	C:\WINDOWS\SYSTEM32\ucrtbased.dll	365952	116	0	65	0	0	0
+        49	        48	    529410	    0	      1	                     EnumSystemLocalesEx	C:\WINDOWS\System32\KERNELBASE.dll	529376	40	0	30	0	0	0
+        50	       142	    189033	    1	      1	[Loop@0x18002e11f in Internal_EnumSystemLocales]	C:\WINDOWS\System32\KERNELBASE.dll	188703	464		34	0	0	0
+        51	        50	    380431	    0	      1	                        func@0x18005cda0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	380320	1457	0	66	0	0	0
+        52	        51	    366752	    0	      1	                        func@0x180059850	C:\WINDOWS\SYSTEM32\ucrtbased.dll	366672	122	0	67	0	0	0
+        53	        52	    220458	    0	      1	                         GetLocaleInfoEx	C:\WINDOWS\System32\KERNELBASE.dll	219840	693	0	49	0	0	0
+        54	        53	     59475	    0	      1	                        func@0x18000e790	C:\WINDOWS\System32\KERNELBASE.dll	59280	400	0	57	0	0	0
+        55	        54	     60007	    0	      1	                        func@0x18000e928	C:\WINDOWS\System32\KERNELBASE.dll	59688	458	0	59	0	0	0
+        56	        55	    639668	    0	      1	                               NtOpenKey	C:\WINDOWS\SYSTEM32\ntdll.dll	639648	21	0	22	0	0	0
+        57	        54	     60077	    0	      1	                        func@0x18000e928	C:\WINDOWS\System32\KERNELBASE.dll	59688	458	0	59	0	0	0
+        58	        57	     60275	    0	      1	                        func@0x18000eaf8	C:\WINDOWS\System32\KERNELBASE.dll	60152	413	0	60	0	0	0
+        59	        58	    639828	    0	      1	                         NtQueryValueKey	C:\WINDOWS\SYSTEM32\ntdll.dll	639808	21	0	23	0	0	0
+        60	        23	   1213153	    0	      0	                       Compute_subblocks	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1212864	365	0	289	0	0	0
+        61	       110	   1352500	    1	      0	[Loop at line 798 in Heisenberg1D::spinStructureFactor]	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1352283	762	1353045	293	0	0	0
+        62	        61	    856492	    0	      1	                           [OpenMP fork]	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	856384	208	0	18	0	0	0
+        63	        62	    604932	    0	      1	                          _kmp_fork_call	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	596544	11232	0	19	0	0	0
+        64	       129	    609688	    1	      1	[Loop at line 5336 in _kmp_allocate_team]	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	609675	90		25	0	0	0
+        65	        64	    584413	    0	      1	                    _kmp_allocate_thread	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	582352	2768	0	31	0	0	0
+        66	        65	   1059851	    0	      1	                      _kmp_create_worker	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	1059712	448	0	33	0	0	0
+        67	        61	    856515	    0	      1	                           [OpenMP fork]	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	856384	208	0	18	0	0	0
+        68	        67	    617172	    0	      1	                          _kmp_join_call	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	616688	3872	0	36	0	0	0
+        69	        68	    304409	    0	      1	                      __kmp_join_barrier	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	303024	3744	0	40	0	0	0
+        70	       133	    290571	    1	      1	[Loop at line 361 in _kmp_hyper_barrier_gather]	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	290475	360		42	0	0	0
+        71	       110	   1352801	    1	      0	[Loop at line 798 in Heisenberg1D::spinStructureFactor]	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1352283	762	1353045	293	0	0	0
+        72	        71	    634339	    0	      0	std::operator+<char,struct std::char_traits<char>,class std::allocator<char> >	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	634224	148	0	296	0	0	0
+        73	        72	   1144548	    0	      0	std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1144464	258	0	297	0	0	0
+        74	        73	   1244596	    0	      0	std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Getal	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1244528	80	0	298	0	0	0
+        75	        74	   1243024	    0	      0	std::_Compressed_pair<class std::allocator<char>,class std::_String_val<struct std::_Simple_types<char> >,1>::_Get_first	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1242992	71	0	299	0	0	0
+        76	        22	   1370956	    0	      0	                                    main	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1370176	867	0	288	0	0	0
+        77	        76	    474881	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	474832	55	0	6	0	0	0
+        78	        77	    995382	    0	      0	std::endl<char,struct std::char_traits<char> >	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	995264	149	0	300	0	0	0
+        79	        78	    531867	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	531728	280	0	7	0	0	0
+        80	        79	    130636	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	130496	154	0	8	0	0	0
+        81	        80	     71565	    0	      1	                        func@0x180011660	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	71264	725	0	9	0	0	0
+        82	        81	     23774	    0	      1	                        func@0x180005cc0	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	23744	64	0	10	0	0	0
+        83	        82	    504491	    0	      1	                                   fputc	C:\WINDOWS\SYSTEM32\ucrtbased.dll	503856	668	0	68	0	0	0
+        84	        83	    503668	    0	      1	                            fputc_nolock	C:\WINDOWS\SYSTEM32\ucrtbased.dll	503568	176	0	69	0	0	0
+        85	        84	    760247	    0	      1	                        func@0x1800b9990	C:\WINDOWS\SYSTEM32\ucrtbased.dll	760208	45	0	70	0	0	0
+        86	        85	    757982	    0	      1	                        func@0x1800b8ea0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	757408	618	0	71	0	0	0
+        87	        86	    759243	    0	      1	                        func@0x1800b9380	C:\WINDOWS\SYSTEM32\ucrtbased.dll	758656	624	0	79	0	0	0
+        88	        87	   1116429	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115792	660	0	87	0	0	0
+        89	        88	   1117417	    0	      1	                        func@0x180110930	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1116464	1484	0	91	0	0	0
+        90	       120	   1114281	    1	      1	  [Loop@0x18010ffce in func@0x18010ff30]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114062	255		95	0	0	0
+        91	        90	    151561	    0	      1	                               WriteFile	C:\WINDOWS\System32\KERNELBASE.dll	151440	377	0	61	0	0	0
+        92	        91	    639348	    0	      1	                             NtWriteFile	C:\WINDOWS\SYSTEM32\ntdll.dll	639328	21	0	24	0	0	0
+        93	       124	    300054	    1	      1	[Loop at line 361 in _kmp_hyper_barrier_release]	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	299948	553		15	0	0	0
+        94	       122	    594830	    1	      1	[Loop at line 5932 in _kmp_launch_thread]	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	594613	311		12	0	0	0
+        95	        94	    856331	    0	      1	                 _vckmp_invoke_task_func	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	856256	128	0	46	0	0	0
+        96	        95	   1243900	    0	      1	                 _vckmp_invoke_microtask	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	1243760	154	0	47	0	0	0
+        97	       116	   1349271	    1	      0	  [Loop@0x14014961d in func@0x1401494bc]	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1349149	242	1349391	301	0	0	0
+        98	        97	   1317321	    0	      0	                           int_to_binary	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1317184	332	0	306	0	0	0
+        99	        98	   1159460	    0	      0	std::vector<int,class std::allocator<int> >::vector<int,class std::allocator<int> >	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1159312	166	0	307	0	0	0
+       100	        99	    643418	    0	      0	std::vector<int,class std::allocator<int> >::_Construct_n_copies_of_ty<struct std::_Value_init_tag>	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	643248	314	0	308	0	0	0
+       101	       100	   1234775	    0	      0	std::vector<int,class std::allocator<int> >::_Buy_nonzero	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1234672	114	0	309	0	0	0
+       102	       101	   1235535	    0	      0	std::vector<int,class std::allocator<int> >::_Buy_raw	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1235392	214	0	310	0	0	0
+       103	       102	   1267038	    0	      0	           std::allocator<int>::allocate	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1266960	89	0	311	0	0	0
+       104	       103	    641526	    0	      0	std::_Allocate<16,struct std::_Default_allocate_traits,0>	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	641424	117	0	312	0	0	0
+       105	       104	   1234153	    0	      0	std::_Default_allocate_traits::_Allocate	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1234080	76	0	313	0	0	0
+       106	       124	    300090	    1	      1	[Loop at line 361 in _kmp_hyper_barrier_release]	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	299948	553		15	0	0	0
+       107	       124	    300156	    1	      1	[Loop at line 361 in _kmp_hyper_barrier_release]	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	299948	553		15	0	0	0
+       108	         9	    288830	    0	      1	                                 SleepEx	C:\WINDOWS\System32\KERNELBASE.dll	288752	313	0	28	0	0	0
+       109	        60	   1352070	    0	      0	       Heisenberg1D::spinStructureFactor	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1350368	3459	0	294	0	0	0
+       110	       109	   1352283	    1	      0	[Loop at line 793 in Heisenberg1D::spinStructureFactor]	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1352070	1025	1353095	295	0	0	0
+       111	        60	   1352500	    0	      0	       Heisenberg1D::spinStructureFactor	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1350368	3459	0	294	0	0	0
+       112	        60	   1352801	    0	      0	       Heisenberg1D::spinStructureFactor	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1350368	3459	0	294	0	0	0
+       113	        96	   1348807	    0	      0	                        func@0x1401494bc	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1348796	1214	0	302	0	0	0
+       114	       113	   1348847	    1	      0	  [Loop@0x1401494c7 in func@0x1401494bc]	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1348807	1135	1349942	305	0	0	0
+       115	       114	   1349054	    1	      0	  [Loop@0x1401494ef in func@0x1401494bc]	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1348847	1090	1349937	304	0	0	0
+       116	       115	   1349149	    1	      0	  [Loop@0x1401495be in func@0x1401494bc]	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1349054	741	1349795	303	0	0	0
+       117	        96	   1349271	    0	      0	                        func@0x1401494bc	C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe	1348796	1214	0	302	0	0	0
+       118	        29	    116461	    0	      1	         std::_Locinfo::_Locinfo_Addcats	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	116304	343	0	5	0	0	0
+       119	        29	    116524	    0	      1	         std::_Locinfo::_Locinfo_Addcats	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	116304	343	0	5	0	0	0
+       120	        89	   1114062	    0	      1	                        func@0x18010ff30	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1113904	546	0	96	0	0	0
+       121	        89	   1114281	    0	      1	                        func@0x18010ff30	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1113904	546	0	96	0	0	0
+       122	         5	    594613	    0	      1	                      _kmp_launch_thread	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	594416	624	0	13	0	0	0
+       123	         5	    594625	    0	      1	                      _kmp_launch_thread	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	594416	624	0	13	0	0	0
+       124	         7	    299948	    0	      1	              _kmp_hyper_barrier_release	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	298352	2560	0	16	0	0	0
+       125	         7	    300743	    0	      1	              _kmp_hyper_barrier_release	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	298352	2560	0	16	0	0	0
+       126	         7	    300293	    0	      1	              _kmp_hyper_barrier_release	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	298352	2560	0	16	0	0	0
+       127	         7	    300044	    0	      1	              _kmp_hyper_barrier_release	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	298352	2560	0	16	0	0	0
+       128	         7	    300050	    0	      1	              _kmp_hyper_barrier_release	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	298352	2560	0	16	0	0	0
+       129	        63	    609675	    0	      1	                      _kmp_allocate_team	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	607776	6512	0	26	0	0	0
+       130	        63	    609688	    0	      1	                      _kmp_allocate_team	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	607776	6512	0	26	0	0	0
+       131	        69	    289673	    0	      1	               _kmp_hyper_barrier_gather	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	289472	2128	0	43	0	0	0
+       132	       131	    289842	    1	      1	[Loop at line 316 in _kmp_hyper_barrier_gather]	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	289673	1190		45	0	0	0
+       133	       132	    290475	    1	      1	[Loop at line 316 in _kmp_hyper_barrier_gather]	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	289842	905		44	0	0	0
+       134	        69	    290571	    0	      1	               _kmp_hyper_barrier_gather	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	289472	2128	0	43	0	0	0
+       135	         7	    300054	    0	      1	              _kmp_hyper_barrier_release	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	298352	2560	0	16	0	0	0
+       136	         5	    594830	    0	      1	                      _kmp_launch_thread	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	594416	624	0	13	0	0	0
+       137	         7	    300090	    0	      1	              _kmp_hyper_barrier_release	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	298352	2560	0	16	0	0	0
+       138	         7	    300156	    0	      1	              _kmp_hyper_barrier_release	C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll	298352	2560	0	16	0	0	0
+       139	         9	    288898	    0	      1	                                 SleepEx	C:\WINDOWS\System32\KERNELBASE.dll	288752	313	0	28	0	0	0
+       140	         9	    288912	    0	      1	                                 SleepEx	C:\WINDOWS\System32\KERNELBASE.dll	288752	313	0	28	0	0	0
+       141	         9	    288913	    0	      1	                                 SleepEx	C:\WINDOWS\System32\KERNELBASE.dll	288752	313	0	28	0	0	0
+       142	        49	    188703	    0	      1	              Internal_EnumSystemLocales	C:\WINDOWS\System32\KERNELBASE.dll	188256	1119	0	35	0	0	0
+       143	        49	    189033	    0	      1	              Internal_EnumSystemLocales	C:\WINDOWS\System32\KERNELBASE.dll	188256	1119	0	35	0	0	0
+       144	        -1	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	1	0	317	0	0	0

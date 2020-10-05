@@ -1,0 +1,17 @@
+cd 'C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Results'
+
+set xlabel 'T/J'
+set ylabel 'E/(J*L)'
+
+L = 12
+delta = 2
+
+set autoscale xy
+#set xrange [0:L]
+set key inside top left  title ''
+
+set title 'Average energy and "Domain-Wall" state energy for {/Symbol D}=0'
+
+plotstr = sprintf("plot 'Average energy_Delta=%0.0f.txt' using 1:2 w lp ps 0.4 title '<E>', 'Average energy_Delta=%0.0f.txt' using 1:3 w lp ps 0.4 title 'Domain-Wall state energy'", delta, delta)
+
+eval(plotstr)

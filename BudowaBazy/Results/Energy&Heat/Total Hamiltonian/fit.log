@@ -1,0 +1,4510 @@
+
+
+*******************************************************************************
+Wed Apr 01 20:37:31 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) =a1*x**3 + b1*x**2 + c1*x + d1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1            d1           
+   0 1.0326604313e+01   0.00e+00  5.16e-01    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+   6 4.1482316831e-09  -4.07e-01  5.16e-07   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 4.14823e-09
+rel. change during last iteration : -4.07366e-06
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.71853e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.38274e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -0.786273        +/- 0.01459      (1.855%)
+b1              = 1.34561          +/- 0.01174      (0.8725%)
+c1              = 0.0257189        +/- 0.002546     (9.901%)
+d1              = -0.000979036     +/- 0.0001497    (15.29%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     d1     
+a1              1.000 
+b1             -0.997  1.000 
+c1              0.979 -0.991  1.000 
+d1             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:37:31 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) =a2*x**3 + b2*x**2 + c2*x + d2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2            d2           
+   0 9.7072189370e+00   0.00e+00  5.16e-01    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+   6 1.9815728849e-08  -1.82e-01  5.16e-07   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.98157e-08
+rel. change during last iteration : -1.82136e-06
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.12726e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.60524e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -1.27953         +/- 0.03188      (2.492%)
+b2              = 2.01579          +/- 0.02566      (1.273%)
+c2              = 0.0667578        +/- 0.005565     (8.337%)
+d2              = -0.0023868       +/- 0.0003272    (13.71%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     d2     
+a2              1.000 
+b2             -0.997  1.000 
+c2              0.979 -0.991  1.000 
+d2             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:37:31 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) =a3*x**3 + b3*x**2 + c3*x + d3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3            d3           
+   0 9.1120701135e+00   0.00e+00  5.16e-01    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+   6 5.1086252680e-08  -1.21e-01  5.16e-07   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 5.10863e-08
+rel. change during last iteration : -1.21089e-06
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000130494
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.70288e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = -1.77371         +/- 0.05119      (2.886%)
+b3              = 2.66121          +/- 0.0412       (1.548%)
+c3              = 0.121005         +/- 0.008936     (7.385%)
+d3              = -0.00409175      +/- 0.0005253    (12.84%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     d3     
+a3              1.000 
+b3             -0.997  1.000 
+c3              0.979 -0.991  1.000 
+d3             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:37:31 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) =a4*x**3 + b4*x**2 + c4*x + d4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4            d4           
+   0 9.2028791749e+00   0.00e+00  5.16e-01    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+   6 2.9711471461e-08  -2.21e-01  5.16e-07   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.97115e-08
+rel. change during last iteration : -2.20685e-06
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.9518e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.90382e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = -1.75224         +/- 0.03904      (2.228%)
+b4              = 2.82469          +/- 0.03142      (1.112%)
+c4              = 0.0306747        +/- 0.006815     (22.22%)
+d4              = -0.00248161      +/- 0.0004006    (16.14%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     d4     
+a4              1.000 
+b4             -0.997  1.000 
+c4              0.979 -0.991  1.000 
+d4             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:37:31 2020
+
+
+FIT:    data read from 'Egap_even__Delta=2.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) =a5*x**3 + b5*x**2 + c5*x + d5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5            d5           
+   0 9.3148394858e+00   0.00e+00  5.16e-01    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+   6 2.0948067209e-08  -3.54e-01  5.16e-07   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.09481e-08
+rel. change during last iteration : -3.53701e-06
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.35625e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.98269e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = -1.8047          +/- 0.03278      (1.816%)
+b5              = 3.07725          +/- 0.02638      (0.8574%)
+c5              = -0.0865953       +/- 0.005722     (6.608%)
+d5              = -0.0004276       +/- 0.0003364    (78.67%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     d5     
+a5              1.000 
+b5             -0.997  1.000 
+c5              0.979 -0.991  1.000 
+d5             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:38:03 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) =a1*x**3 + b1*x**2 + c1*x + d1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1            d1           
+   0 4.1482316831e-09   0.00e+00  6.88e-02   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+   1 4.1482316831e-09  -3.75e-09  6.88e-02   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.14823e-09
+rel. change during last iteration : -3.74883e-14
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.71853e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.38274e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -0.786273        +/- 0.01459      (1.855%)
+b1              = 1.34561          +/- 0.01174      (0.8725%)
+c1              = 0.0257189        +/- 0.002546     (9.901%)
+d1              = -0.000979036     +/- 0.0001497    (15.29%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     d1     
+a1              1.000 
+b1             -0.997  1.000 
+c1              0.979 -0.991  1.000 
+d1             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:38:03 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) =a2*x**3 + b2*x**2 + c2*x + d2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2            d2           
+   0 1.9815728849e-08   0.00e+00  1.04e-01   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+   1 1.9815728849e-08  -1.34e-08  1.04e-02   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.98157e-08
+rel. change during last iteration : -1.33914e-13
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.12726e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.60524e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -1.27953         +/- 0.03188      (2.492%)
+b2              = 2.01579          +/- 0.02566      (1.273%)
+c2              = 0.0667578        +/- 0.005565     (8.337%)
+d2              = -0.0023868       +/- 0.0003272    (13.71%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     d2     
+a2              1.000 
+b2             -0.997  1.000 
+c2              0.979 -0.991  1.000 
+d2             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:38:03 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) =a3*x**3 + b3*x**2 + c3*x + d3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3            d3           
+   0 5.1086252680e-08   0.00e+00  1.38e-01   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+   1 5.1086252680e-08   0.00e+00  1.38e+00   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5.10863e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000130494
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.70288e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = -1.77371         +/- 0.05119      (2.886%)
+b3              = 2.66121          +/- 0.0412       (1.548%)
+c3              = 0.121005         +/- 0.008936     (7.385%)
+d3              = -0.00409175      +/- 0.0005253    (12.84%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     d3     
+a3              1.000 
+b3             -0.997  1.000 
+c3              0.979 -0.991  1.000 
+d3             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:38:03 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) =a4*x**3 + b4*x**2 + c4*x + d4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4            d4           
+   0 2.9711471461e-08   0.00e+00  1.45e-01   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+   1 2.9711471461e-08  -8.46e-10  1.45e-02   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.97115e-08
+rel. change during last iteration : -8.4635e-15
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.9518e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.90382e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = -1.75224         +/- 0.03904      (2.228%)
+b4              = 2.82469          +/- 0.03142      (1.112%)
+c4              = 0.0306747        +/- 0.006815     (22.22%)
+d4              = -0.00248161      +/- 0.0004006    (16.14%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     d4     
+a4              1.000 
+b4             -0.997  1.000 
+c4              0.979 -0.991  1.000 
+d4             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:38:03 2020
+
+
+FIT:    data read from 'Egap_even__Delta=2.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) =a5*x**3 + b5*x**2 + c5*x + d5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5            d5           
+   0 2.0948067209e-08   0.00e+00  1.58e-01   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+   1 2.0948067209e-08  -5.23e-09  1.58e-02   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.09481e-08
+rel. change during last iteration : -5.22811e-14
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.35625e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.98269e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = -1.8047          +/- 0.03278      (1.816%)
+b5              = 3.07725          +/- 0.02638      (0.8574%)
+c5              = -0.0865953       +/- 0.005722     (6.608%)
+d5              = -0.0004276       +/- 0.0003364    (78.67%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     d5     
+a5              1.000 
+b5             -0.997  1.000 
+c5              0.979 -0.991  1.000 
+d5             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:38:20 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) =a1*x**3 + b1*x**2 + c1*x + d1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1            d1           
+   0 4.1482316831e-09   0.00e+00  6.88e-02   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+   1 4.1482316831e-09  -6.66e-09  6.88e-02   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.14823e-09
+rel. change during last iteration : -6.66015e-14
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.71853e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.38274e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -0.786273        +/- 0.01459      (1.855%)
+b1              = 1.34561          +/- 0.01174      (0.8725%)
+c1              = 0.0257189        +/- 0.002546     (9.901%)
+d1              = -0.000979036     +/- 0.0001497    (15.29%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     d1     
+a1              1.000 
+b1             -0.997  1.000 
+c1              0.979 -0.991  1.000 
+d1             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:38:21 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) =a2*x**3 + b2*x**2 + c2*x + d2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2            d2           
+   0 1.9815728849e-08   0.00e+00  1.04e-01   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+   1 1.9815728849e-08  -2.27e-09  1.04e-01   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.98157e-08
+rel. change during last iteration : -2.27085e-14
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.12726e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.60524e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -1.27953         +/- 0.03188      (2.492%)
+b2              = 2.01579          +/- 0.02566      (1.273%)
+c2              = 0.0667578        +/- 0.005565     (8.337%)
+d2              = -0.0023868       +/- 0.0003272    (13.71%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     d2     
+a2              1.000 
+b2             -0.997  1.000 
+c2              0.979 -0.991  1.000 
+d2             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:38:21 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) =a3*x**3 + b3*x**2 + c3*x + d3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3            d3           
+   0 5.1086252680e-08   0.00e+00  1.38e-01   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+   1 5.1086252680e-08   0.00e+00  1.38e+00   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5.10863e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000130494
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.70288e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = -1.77371         +/- 0.05119      (2.886%)
+b3              = 2.66121          +/- 0.0412       (1.548%)
+c3              = 0.121005         +/- 0.008936     (7.385%)
+d3              = -0.00409175      +/- 0.0005253    (12.84%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     d3     
+a3              1.000 
+b3             -0.997  1.000 
+c3              0.979 -0.991  1.000 
+d3             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:38:21 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) =a4*x**3 + b4*x**2 + c4*x + d4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4            d4           
+   0 2.9711471461e-08   0.00e+00  1.45e-01   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+   1 2.9711471461e-08   0.00e+00  1.45e+00   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.97115e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.9518e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.90382e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = -1.75224         +/- 0.03904      (2.228%)
+b4              = 2.82469          +/- 0.03142      (1.112%)
+c4              = 0.0306747        +/- 0.006815     (22.22%)
+d4              = -0.00248161      +/- 0.0004006    (16.14%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     d4     
+a4              1.000 
+b4             -0.997  1.000 
+c4              0.979 -0.991  1.000 
+d4             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:38:21 2020
+
+
+FIT:    data read from 'Egap_even__Delta=2.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) =a5*x**3 + b5*x**2 + c5*x + d5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5            d5           
+   0 2.0948067209e-08   0.00e+00  1.58e-01   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+   1 2.0948067209e-08  -3.08e-09  1.58e-02   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.09481e-08
+rel. change during last iteration : -3.08e-14
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.35625e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.98269e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = -1.8047          +/- 0.03278      (1.816%)
+b5              = 3.07725          +/- 0.02638      (0.8574%)
+c5              = -0.0865953       +/- 0.005722     (6.608%)
+d5              = -0.0004276       +/- 0.0003364    (78.67%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     d5     
+a5              1.000 
+b5             -0.997  1.000 
+c5              0.979 -0.991  1.000 
+d5             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:38:49 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) =a1*x**3 + b1*x**2 + c1*x + d1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1            d1           
+   0 4.1482316831e-09   0.00e+00  6.88e-02   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+   1 4.1482316831e-09  -8.97e-10  6.88e-03   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.14823e-09
+rel. change during last iteration : -8.97325e-15
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.71853e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.38274e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -0.786273        +/- 0.01459      (1.855%)
+b1              = 1.34561          +/- 0.01174      (0.8725%)
+c1              = 0.0257189        +/- 0.002546     (9.901%)
+d1              = -0.000979036     +/- 0.0001497    (15.29%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     d1     
+a1              1.000 
+b1             -0.997  1.000 
+c1              0.979 -0.991  1.000 
+d1             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:38:49 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) =a2*x**3 + b2*x**2 + c2*x + d2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2            d2           
+   0 1.9815728849e-08   0.00e+00  1.04e-01   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+   1 1.9815728849e-08  -2.05e-09  1.04e-02   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.98157e-08
+rel. change during last iteration : -2.05379e-14
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.12726e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.60524e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -1.27953         +/- 0.03188      (2.492%)
+b2              = 2.01579          +/- 0.02566      (1.273%)
+c2              = 0.0667578        +/- 0.005565     (8.337%)
+d2              = -0.0023868       +/- 0.0003272    (13.71%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     d2     
+a2              1.000 
+b2             -0.997  1.000 
+c2              0.979 -0.991  1.000 
+d2             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:38:49 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) =a3*x**3 + b3*x**2 + c3*x + d3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3            d3           
+   0 5.1086252680e-08   0.00e+00  1.38e-01   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+   1 5.1086252680e-08   0.00e+00  1.38e+00   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5.10863e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000130494
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.70288e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = -1.77371         +/- 0.05119      (2.886%)
+b3              = 2.66121          +/- 0.0412       (1.548%)
+c3              = 0.121005         +/- 0.008936     (7.385%)
+d3              = -0.00409175      +/- 0.0005253    (12.84%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     d3     
+a3              1.000 
+b3             -0.997  1.000 
+c3              0.979 -0.991  1.000 
+d3             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:38:49 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) =a4*x**3 + b4*x**2 + c4*x + d4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4            d4           
+   0 2.9711471461e-08   0.00e+00  1.45e-01   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+   1 2.9711471461e-08   0.00e+00  1.45e+00   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.97115e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.9518e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.90382e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = -1.75224         +/- 0.03904      (2.228%)
+b4              = 2.82469          +/- 0.03142      (1.112%)
+c4              = 0.0306747        +/- 0.006815     (22.22%)
+d4              = -0.00248161      +/- 0.0004006    (16.14%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     d4     
+a4              1.000 
+b4             -0.997  1.000 
+c4              0.979 -0.991  1.000 
+d4             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:38:49 2020
+
+
+FIT:    data read from 'Egap_even__Delta=2.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) =a5*x**3 + b5*x**2 + c5*x + d5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5            d5           
+   0 2.0948067209e-08   0.00e+00  1.58e-01   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+   1 2.0948067209e-08   0.00e+00  1.58e+00   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.09481e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.35625e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.98269e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = -1.8047          +/- 0.03278      (1.816%)
+b5              = 3.07725          +/- 0.02638      (0.8574%)
+c5              = -0.0865953       +/- 0.005722     (6.608%)
+d5              = -0.0004276       +/- 0.0003364    (78.67%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     d5     
+a5              1.000 
+b5             -0.997  1.000 
+c5              0.979 -0.991  1.000 
+d5             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:39:01 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) =a1*x**3 + b1*x**2 + c1*x + d1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1            d1           
+   0 4.1482316831e-09   0.00e+00  6.88e-02   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+   1 4.1482316831e-09  -2.29e-09  6.88e-03   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.14823e-09
+rel. change during last iteration : -2.29316e-14
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.71853e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.38274e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -0.786273        +/- 0.01459      (1.855%)
+b1              = 1.34561          +/- 0.01174      (0.8725%)
+c1              = 0.0257189        +/- 0.002546     (9.901%)
+d1              = -0.000979036     +/- 0.0001497    (15.29%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     d1     
+a1              1.000 
+b1             -0.997  1.000 
+c1              0.979 -0.991  1.000 
+d1             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:39:01 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) =a2*x**3 + b2*x**2 + c2*x + d2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2            d2           
+   0 1.9815728849e-08   0.00e+00  1.04e-01   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+   1 1.9815728849e-08  -1.45e-09  1.04e-01   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.98157e-08
+rel. change during last iteration : -1.45268e-14
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.12726e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.60524e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -1.27953         +/- 0.03188      (2.492%)
+b2              = 2.01579          +/- 0.02566      (1.273%)
+c2              = 0.0667578        +/- 0.005565     (8.337%)
+d2              = -0.0023868       +/- 0.0003272    (13.71%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     d2     
+a2              1.000 
+b2             -0.997  1.000 
+c2              0.979 -0.991  1.000 
+d2             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:39:01 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) =a3*x**3 + b3*x**2 + c3*x + d3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3            d3           
+   0 5.1086252680e-08   0.00e+00  1.38e-01   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+   1 5.1086252680e-08   0.00e+00  1.38e+00   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5.10863e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000130494
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.70288e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = -1.77371         +/- 0.05119      (2.886%)
+b3              = 2.66121          +/- 0.0412       (1.548%)
+c3              = 0.121005         +/- 0.008936     (7.385%)
+d3              = -0.00409175      +/- 0.0005253    (12.84%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     d3     
+a3              1.000 
+b3             -0.997  1.000 
+c3              0.979 -0.991  1.000 
+d3             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:39:01 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) =a4*x**3 + b4*x**2 + c4*x + d4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4            d4           
+   0 2.9711471461e-08   0.00e+00  1.45e-01   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+   1 2.9711471461e-08   0.00e+00  1.45e+00   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.97115e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.9518e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.90382e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = -1.75224         +/- 0.03904      (2.228%)
+b4              = 2.82469          +/- 0.03142      (1.112%)
+c4              = 0.0306747        +/- 0.006815     (22.22%)
+d4              = -0.00248161      +/- 0.0004006    (16.14%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     d4     
+a4              1.000 
+b4             -0.997  1.000 
+c4              0.979 -0.991  1.000 
+d4             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:39:01 2020
+
+
+FIT:    data read from 'Egap_even__Delta=2.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) =a5*x**3 + b5*x**2 + c5*x + d5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5            d5           
+   0 2.0948067209e-08   0.00e+00  1.58e-01   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+   1 2.0948067209e-08   0.00e+00  1.58e+00   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.09481e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.35625e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.98269e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = -1.8047          +/- 0.03278      (1.816%)
+b5              = 3.07725          +/- 0.02638      (0.8574%)
+c5              = -0.0865953       +/- 0.005722     (6.608%)
+d5              = -0.0004276       +/- 0.0003364    (78.67%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     d5     
+a5              1.000 
+b5             -0.997  1.000 
+c5              0.979 -0.991  1.000 
+d5             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:39:31 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) =a1*x**3 + b1*x**2 + c1*x + d1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1            d1           
+   0 4.1482316831e-09   0.00e+00  6.88e-02   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+   1 4.1482316831e-09  -1.18e-09  6.88e-02   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.14823e-09
+rel. change during last iteration : -1.17649e-14
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.71853e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.38274e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -0.786273        +/- 0.01459      (1.855%)
+b1              = 1.34561          +/- 0.01174      (0.8725%)
+c1              = 0.0257189        +/- 0.002546     (9.901%)
+d1              = -0.000979036     +/- 0.0001497    (15.29%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     d1     
+a1              1.000 
+b1             -0.997  1.000 
+c1              0.979 -0.991  1.000 
+d1             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:39:31 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) =a2*x**3 + b2*x**2 + c2*x + d2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2            d2           
+   0 1.9815728849e-08   0.00e+00  1.04e-01   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+   1 1.9815728849e-08   0.00e+00  1.04e+00   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.98157e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.12726e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.60524e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -1.27953         +/- 0.03188      (2.492%)
+b2              = 2.01579          +/- 0.02566      (1.273%)
+c2              = 0.0667578        +/- 0.005565     (8.337%)
+d2              = -0.0023868       +/- 0.0003272    (13.71%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     d2     
+a2              1.000 
+b2             -0.997  1.000 
+c2              0.979 -0.991  1.000 
+d2             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:39:31 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) =a3*x**3 + b3*x**2 + c3*x + d3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3            d3           
+   0 5.1086252680e-08   0.00e+00  1.38e-01   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+   1 5.1086252680e-08   0.00e+00  1.38e+00   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5.10863e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000130494
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.70288e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = -1.77371         +/- 0.05119      (2.886%)
+b3              = 2.66121          +/- 0.0412       (1.548%)
+c3              = 0.121005         +/- 0.008936     (7.385%)
+d3              = -0.00409175      +/- 0.0005253    (12.84%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     d3     
+a3              1.000 
+b3             -0.997  1.000 
+c3              0.979 -0.991  1.000 
+d3             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:39:32 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) =a4*x**3 + b4*x**2 + c4*x + d4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4            d4           
+   0 2.9711471461e-08   0.00e+00  1.45e-01   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+   1 2.9711471461e-08   0.00e+00  1.45e+00   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.97115e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.9518e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.90382e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = -1.75224         +/- 0.03904      (2.228%)
+b4              = 2.82469          +/- 0.03142      (1.112%)
+c4              = 0.0306747        +/- 0.006815     (22.22%)
+d4              = -0.00248161      +/- 0.0004006    (16.14%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     d4     
+a4              1.000 
+b4             -0.997  1.000 
+c4              0.979 -0.991  1.000 
+d4             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:39:32 2020
+
+
+FIT:    data read from 'Egap_even__Delta=2.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) =a5*x**3 + b5*x**2 + c5*x + d5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5            d5           
+   0 2.0948067209e-08   0.00e+00  1.58e-01   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+   1 2.0948067209e-08   0.00e+00  1.58e+00   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.09481e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.35625e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.98269e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = -1.8047          +/- 0.03278      (1.816%)
+b5              = 3.07725          +/- 0.02638      (0.8574%)
+c5              = -0.0865953       +/- 0.005722     (6.608%)
+d5              = -0.0004276       +/- 0.0003364    (78.67%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     d5     
+a5              1.000 
+b5             -0.997  1.000 
+c5              0.979 -0.991  1.000 
+d5             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:40:29 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) =a1*x**3 + b1*x**2 + c1*x + d1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1            d1           
+   0 4.1482316831e-09   0.00e+00  6.88e-02   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+   1 4.1482316831e-09  -4.49e-09  6.88e-02   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.14823e-09
+rel. change during last iteration : -4.48663e-14
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.71853e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.38274e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -0.786273        +/- 0.01459      (1.855%)
+b1              = 1.34561          +/- 0.01174      (0.8725%)
+c1              = 0.0257189        +/- 0.002546     (9.901%)
+d1              = -0.000979036     +/- 0.0001497    (15.29%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     d1     
+a1              1.000 
+b1             -0.997  1.000 
+c1              0.979 -0.991  1.000 
+d1             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:40:29 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) =a2*x**3 + b2*x**2 + c2*x + d2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2            d2           
+   0 1.9815728849e-08   0.00e+00  1.04e-01   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+   1 1.9815728849e-08   0.00e+00  1.04e+00   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.98157e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.12726e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.60524e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -1.27953         +/- 0.03188      (2.492%)
+b2              = 2.01579          +/- 0.02566      (1.273%)
+c2              = 0.0667578        +/- 0.005565     (8.337%)
+d2              = -0.0023868       +/- 0.0003272    (13.71%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     d2     
+a2              1.000 
+b2             -0.997  1.000 
+c2              0.979 -0.991  1.000 
+d2             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:40:29 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) =a3*x**3 + b3*x**2 + c3*x + d3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3            d3           
+   0 5.1086252680e-08   0.00e+00  1.38e-01   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+   1 5.1086252680e-08   0.00e+00  1.38e+00   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5.10863e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000130494
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.70288e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = -1.77371         +/- 0.05119      (2.886%)
+b3              = 2.66121          +/- 0.0412       (1.548%)
+c3              = 0.121005         +/- 0.008936     (7.385%)
+d3              = -0.00409175      +/- 0.0005253    (12.84%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     d3     
+a3              1.000 
+b3             -0.997  1.000 
+c3              0.979 -0.991  1.000 
+d3             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:40:29 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) =a4*x**3 + b4*x**2 + c4*x + d4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4            d4           
+   0 2.9711471461e-08   0.00e+00  1.45e-01   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+   1 2.9711471461e-08   0.00e+00  1.45e+00   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.97115e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.9518e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.90382e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = -1.75224         +/- 0.03904      (2.228%)
+b4              = 2.82469          +/- 0.03142      (1.112%)
+c4              = 0.0306747        +/- 0.006815     (22.22%)
+d4              = -0.00248161      +/- 0.0004006    (16.14%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     d4     
+a4              1.000 
+b4             -0.997  1.000 
+c4              0.979 -0.991  1.000 
+d4             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:40:29 2020
+
+
+FIT:    data read from 'Egap_even__Delta=2.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) =a5*x**3 + b5*x**2 + c5*x + d5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5            d5           
+   0 2.0948067209e-08   0.00e+00  1.58e-01   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+   1 2.0948067209e-08   0.00e+00  1.58e+00   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.09481e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.35625e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.98269e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = -1.8047          +/- 0.03278      (1.816%)
+b5              = 3.07725          +/- 0.02638      (0.8574%)
+c5              = -0.0865953       +/- 0.005722     (6.608%)
+d5              = -0.0004276       +/- 0.0003364    (78.67%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     d5     
+a5              1.000 
+b5             -0.997  1.000 
+c5              0.979 -0.991  1.000 
+d5             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:40:46 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) =a1*x**3 + b1*x**2 + c1*x + d1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1            d1           
+   0 4.1482316831e-09   0.00e+00  6.88e-02   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+   1 4.1482316831e-09   0.00e+00  6.88e-01   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.14823e-09
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.71853e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.38274e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -0.786273        +/- 0.01459      (1.855%)
+b1              = 1.34561          +/- 0.01174      (0.8725%)
+c1              = 0.0257189        +/- 0.002546     (9.901%)
+d1              = -0.000979036     +/- 0.0001497    (15.29%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     d1     
+a1              1.000 
+b1             -0.997  1.000 
+c1              0.979 -0.991  1.000 
+d1             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:40:46 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) =a2*x**3 + b2*x**2 + c2*x + d2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2            d2           
+   0 1.9815728849e-08   0.00e+00  1.04e-01   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+   1 1.9815728849e-08   0.00e+00  1.04e+00   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.98157e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.12726e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.60524e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -1.27953         +/- 0.03188      (2.492%)
+b2              = 2.01579          +/- 0.02566      (1.273%)
+c2              = 0.0667578        +/- 0.005565     (8.337%)
+d2              = -0.0023868       +/- 0.0003272    (13.71%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     d2     
+a2              1.000 
+b2             -0.997  1.000 
+c2              0.979 -0.991  1.000 
+d2             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:40:46 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) =a3*x**3 + b3*x**2 + c3*x + d3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3            d3           
+   0 5.1086252680e-08   0.00e+00  1.38e-01   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+   1 5.1086252680e-08   0.00e+00  1.38e+00   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5.10863e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000130494
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.70288e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = -1.77371         +/- 0.05119      (2.886%)
+b3              = 2.66121          +/- 0.0412       (1.548%)
+c3              = 0.121005         +/- 0.008936     (7.385%)
+d3              = -0.00409175      +/- 0.0005253    (12.84%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     d3     
+a3              1.000 
+b3             -0.997  1.000 
+c3              0.979 -0.991  1.000 
+d3             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:40:46 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) =a4*x**3 + b4*x**2 + c4*x + d4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4            d4           
+   0 2.9711471461e-08   0.00e+00  1.45e-01   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+   1 2.9711471461e-08   0.00e+00  1.45e+00   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.97115e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.9518e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.90382e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = -1.75224         +/- 0.03904      (2.228%)
+b4              = 2.82469          +/- 0.03142      (1.112%)
+c4              = 0.0306747        +/- 0.006815     (22.22%)
+d4              = -0.00248161      +/- 0.0004006    (16.14%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     d4     
+a4              1.000 
+b4             -0.997  1.000 
+c4              0.979 -0.991  1.000 
+d4             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:40:46 2020
+
+
+FIT:    data read from 'Egap_even__Delta=2.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) =a5*x**3 + b5*x**2 + c5*x + d5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5            d5           
+   0 2.0948067209e-08   0.00e+00  1.58e-01   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+   1 2.0948067209e-08   0.00e+00  1.58e+00   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.09481e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.35625e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.98269e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = -1.8047          +/- 0.03278      (1.816%)
+b5              = 3.07725          +/- 0.02638      (0.8574%)
+c5              = -0.0865953       +/- 0.005722     (6.608%)
+d5              = -0.0004276       +/- 0.0003364    (78.67%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     d5     
+a5              1.000 
+b5             -0.997  1.000 
+c5              0.979 -0.991  1.000 
+d5             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:41:43 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) =a1*x**3 + b1*x**2 + c1*x + d1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1            d1           
+   0 4.1482316831e-09   0.00e+00  6.88e-02   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+   1 4.1482316831e-09   0.00e+00  6.88e-01   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.14823e-09
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.71853e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.38274e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -0.786273        +/- 0.01459      (1.855%)
+b1              = 1.34561          +/- 0.01174      (0.8725%)
+c1              = 0.0257189        +/- 0.002546     (9.901%)
+d1              = -0.000979036     +/- 0.0001497    (15.29%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     d1     
+a1              1.000 
+b1             -0.997  1.000 
+c1              0.979 -0.991  1.000 
+d1             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:41:43 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) =a2*x**3 + b2*x**2 + c2*x + d2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2            d2           
+   0 1.9815728849e-08   0.00e+00  1.04e-01   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+   1 1.9815728849e-08   0.00e+00  1.04e+00   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.98157e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.12726e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.60524e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -1.27953         +/- 0.03188      (2.492%)
+b2              = 2.01579          +/- 0.02566      (1.273%)
+c2              = 0.0667578        +/- 0.005565     (8.337%)
+d2              = -0.0023868       +/- 0.0003272    (13.71%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     d2     
+a2              1.000 
+b2             -0.997  1.000 
+c2              0.979 -0.991  1.000 
+d2             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:41:43 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) =a3*x**3 + b3*x**2 + c3*x + d3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3            d3           
+   0 5.1086252680e-08   0.00e+00  1.38e-01   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+   1 5.1086252680e-08   0.00e+00  1.38e+00   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5.10863e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000130494
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.70288e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = -1.77371         +/- 0.05119      (2.886%)
+b3              = 2.66121          +/- 0.0412       (1.548%)
+c3              = 0.121005         +/- 0.008936     (7.385%)
+d3              = -0.00409175      +/- 0.0005253    (12.84%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     d3     
+a3              1.000 
+b3             -0.997  1.000 
+c3              0.979 -0.991  1.000 
+d3             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:41:43 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) =a4*x**3 + b4*x**2 + c4*x + d4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4            d4           
+   0 2.9711471461e-08   0.00e+00  1.45e-01   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+   1 2.9711471461e-08   0.00e+00  1.45e+00   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.97115e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.9518e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.90382e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = -1.75224         +/- 0.03904      (2.228%)
+b4              = 2.82469          +/- 0.03142      (1.112%)
+c4              = 0.0306747        +/- 0.006815     (22.22%)
+d4              = -0.00248161      +/- 0.0004006    (16.14%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     d4     
+a4              1.000 
+b4             -0.997  1.000 
+c4              0.979 -0.991  1.000 
+d4             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:41:43 2020
+
+
+FIT:    data read from 'Egap_even__Delta=2.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) =a5*x**3 + b5*x**2 + c5*x + d5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5            d5           
+   0 2.0948067209e-08   0.00e+00  1.58e-01   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+   1 2.0948067209e-08   0.00e+00  1.58e+00   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.09481e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.35625e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.98269e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = -1.8047          +/- 0.03278      (1.816%)
+b5              = 3.07725          +/- 0.02638      (0.8574%)
+c5              = -0.0865953       +/- 0.005722     (6.608%)
+d5              = -0.0004276       +/- 0.0003364    (78.67%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     d5     
+a5              1.000 
+b5             -0.997  1.000 
+c5              0.979 -0.991  1.000 
+d5             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:43:07 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) =a1*x**3 + b1*x**2 + c1*x + d1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1            d1           
+   0 4.1482316831e-09   0.00e+00  6.88e-02   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+   1 4.1482316831e-09   0.00e+00  6.88e-01   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.14823e-09
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.71853e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.38274e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -0.786273        +/- 0.01459      (1.855%)
+b1              = 1.34561          +/- 0.01174      (0.8725%)
+c1              = 0.0257189        +/- 0.002546     (9.901%)
+d1              = -0.000979036     +/- 0.0001497    (15.29%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     d1     
+a1              1.000 
+b1             -0.997  1.000 
+c1              0.979 -0.991  1.000 
+d1             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:43:07 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) =a2*x**3 + b2*x**2 + c2*x + d2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2            d2           
+   0 1.9815728849e-08   0.00e+00  1.04e-01   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+   1 1.9815728849e-08   0.00e+00  1.04e+00   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.98157e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.12726e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.60524e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -1.27953         +/- 0.03188      (2.492%)
+b2              = 2.01579          +/- 0.02566      (1.273%)
+c2              = 0.0667578        +/- 0.005565     (8.337%)
+d2              = -0.0023868       +/- 0.0003272    (13.71%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     d2     
+a2              1.000 
+b2             -0.997  1.000 
+c2              0.979 -0.991  1.000 
+d2             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:43:07 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) =a3*x**3 + b3*x**2 + c3*x + d3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3            d3           
+   0 5.1086252680e-08   0.00e+00  1.38e-01   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+   1 5.1086252680e-08   0.00e+00  1.38e+00   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5.10863e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000130494
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.70288e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = -1.77371         +/- 0.05119      (2.886%)
+b3              = 2.66121          +/- 0.0412       (1.548%)
+c3              = 0.121005         +/- 0.008936     (7.385%)
+d3              = -0.00409175      +/- 0.0005253    (12.84%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     d3     
+a3              1.000 
+b3             -0.997  1.000 
+c3              0.979 -0.991  1.000 
+d3             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:43:07 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) =a4*x**3 + b4*x**2 + c4*x + d4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4            d4           
+   0 2.9711471461e-08   0.00e+00  1.45e-01   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+   1 2.9711471461e-08   0.00e+00  1.45e+00   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.97115e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.9518e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.90382e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = -1.75224         +/- 0.03904      (2.228%)
+b4              = 2.82469          +/- 0.03142      (1.112%)
+c4              = 0.0306747        +/- 0.006815     (22.22%)
+d4              = -0.00248161      +/- 0.0004006    (16.14%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     d4     
+a4              1.000 
+b4             -0.997  1.000 
+c4              0.979 -0.991  1.000 
+d4             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:43:07 2020
+
+
+FIT:    data read from 'Egap_even__Delta=2.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) =a5*x**3 + b5*x**2 + c5*x + d5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5            d5           
+   0 2.0948067209e-08   0.00e+00  1.58e-01   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+   1 2.0948067209e-08   0.00e+00  1.58e+00   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.09481e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.35625e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.98269e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = -1.8047          +/- 0.03278      (1.816%)
+b5              = 3.07725          +/- 0.02638      (0.8574%)
+c5              = -0.0865953       +/- 0.005722     (6.608%)
+d5              = -0.0004276       +/- 0.0003364    (78.67%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     d5     
+a5              1.000 
+b5             -0.997  1.000 
+c5              0.979 -0.991  1.000 
+d5             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:43:57 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) =a1*x**3 + b1*x**2 + c1*x + d1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1            d1           
+   0 4.1482316831e-09   0.00e+00  6.88e-02   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+   1 4.1482316831e-09   0.00e+00  6.88e-01   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.14823e-09
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.71853e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.38274e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -0.786273        +/- 0.01459      (1.855%)
+b1              = 1.34561          +/- 0.01174      (0.8725%)
+c1              = 0.0257189        +/- 0.002546     (9.901%)
+d1              = -0.000979036     +/- 0.0001497    (15.29%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     d1     
+a1              1.000 
+b1             -0.997  1.000 
+c1              0.979 -0.991  1.000 
+d1             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:43:57 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) =a2*x**3 + b2*x**2 + c2*x + d2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2            d2           
+   0 1.9815728849e-08   0.00e+00  1.04e-01   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+   1 1.9815728849e-08   0.00e+00  1.04e+00   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.98157e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.12726e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.60524e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -1.27953         +/- 0.03188      (2.492%)
+b2              = 2.01579          +/- 0.02566      (1.273%)
+c2              = 0.0667578        +/- 0.005565     (8.337%)
+d2              = -0.0023868       +/- 0.0003272    (13.71%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     d2     
+a2              1.000 
+b2             -0.997  1.000 
+c2              0.979 -0.991  1.000 
+d2             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:43:57 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) =a3*x**3 + b3*x**2 + c3*x + d3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3            d3           
+   0 5.1086252680e-08   0.00e+00  1.38e-01   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+   1 5.1086252680e-08   0.00e+00  1.38e+00   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5.10863e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000130494
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.70288e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = -1.77371         +/- 0.05119      (2.886%)
+b3              = 2.66121          +/- 0.0412       (1.548%)
+c3              = 0.121005         +/- 0.008936     (7.385%)
+d3              = -0.00409175      +/- 0.0005253    (12.84%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     d3     
+a3              1.000 
+b3             -0.997  1.000 
+c3              0.979 -0.991  1.000 
+d3             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:43:57 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) =a4*x**3 + b4*x**2 + c4*x + d4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4            d4           
+   0 2.9711471461e-08   0.00e+00  1.45e-01   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+   1 2.9711471461e-08   0.00e+00  1.45e+00   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.97115e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.9518e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.90382e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = -1.75224         +/- 0.03904      (2.228%)
+b4              = 2.82469          +/- 0.03142      (1.112%)
+c4              = 0.0306747        +/- 0.006815     (22.22%)
+d4              = -0.00248161      +/- 0.0004006    (16.14%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     d4     
+a4              1.000 
+b4             -0.997  1.000 
+c4              0.979 -0.991  1.000 
+d4             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:43:57 2020
+
+
+FIT:    data read from 'Egap_even__Delta=2.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) =a5*x**3 + b5*x**2 + c5*x + d5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5            d5           
+   0 2.0948067209e-08   0.00e+00  1.58e-01   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+   1 2.0948067209e-08   0.00e+00  1.58e+00   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.09481e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.35625e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.98269e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = -1.8047          +/- 0.03278      (1.816%)
+b5              = 3.07725          +/- 0.02638      (0.8574%)
+c5              = -0.0865953       +/- 0.005722     (6.608%)
+d5              = -0.0004276       +/- 0.0003364    (78.67%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     d5     
+a5              1.000 
+b5             -0.997  1.000 
+c5              0.979 -0.991  1.000 
+d5             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:44:19 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) =a1*x**3 + b1*x**2 + c1*x + d1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1            d1           
+   0 4.1482316831e-09   0.00e+00  6.88e-02   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+   1 4.1482316831e-09   0.00e+00  6.88e-01   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.14823e-09
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.71853e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.38274e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -0.786273        +/- 0.01459      (1.855%)
+b1              = 1.34561          +/- 0.01174      (0.8725%)
+c1              = 0.0257189        +/- 0.002546     (9.901%)
+d1              = -0.000979036     +/- 0.0001497    (15.29%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     d1     
+a1              1.000 
+b1             -0.997  1.000 
+c1              0.979 -0.991  1.000 
+d1             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:44:19 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) =a2*x**3 + b2*x**2 + c2*x + d2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2            d2           
+   0 1.9815728849e-08   0.00e+00  1.04e-01   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+   1 1.9815728849e-08   0.00e+00  1.04e+00   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.98157e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.12726e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.60524e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -1.27953         +/- 0.03188      (2.492%)
+b2              = 2.01579          +/- 0.02566      (1.273%)
+c2              = 0.0667578        +/- 0.005565     (8.337%)
+d2              = -0.0023868       +/- 0.0003272    (13.71%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     d2     
+a2              1.000 
+b2             -0.997  1.000 
+c2              0.979 -0.991  1.000 
+d2             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:44:19 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) =a3*x**3 + b3*x**2 + c3*x + d3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3            d3           
+   0 5.1086252680e-08   0.00e+00  1.38e-01   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+   1 5.1086252680e-08   0.00e+00  1.38e+00   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5.10863e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000130494
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.70288e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = -1.77371         +/- 0.05119      (2.886%)
+b3              = 2.66121          +/- 0.0412       (1.548%)
+c3              = 0.121005         +/- 0.008936     (7.385%)
+d3              = -0.00409175      +/- 0.0005253    (12.84%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     d3     
+a3              1.000 
+b3             -0.997  1.000 
+c3              0.979 -0.991  1.000 
+d3             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:44:19 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) =a4*x**3 + b4*x**2 + c4*x + d4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4            d4           
+   0 2.9711471461e-08   0.00e+00  1.45e-01   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+   1 2.9711471461e-08   0.00e+00  1.45e+00   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.97115e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.9518e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.90382e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = -1.75224         +/- 0.03904      (2.228%)
+b4              = 2.82469          +/- 0.03142      (1.112%)
+c4              = 0.0306747        +/- 0.006815     (22.22%)
+d4              = -0.00248161      +/- 0.0004006    (16.14%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     d4     
+a4              1.000 
+b4             -0.997  1.000 
+c4              0.979 -0.991  1.000 
+d4             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:44:19 2020
+
+
+FIT:    data read from 'Egap_even__Delta=2.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) =a5*x**3 + b5*x**2 + c5*x + d5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5            d5           
+   0 2.0948067209e-08   0.00e+00  1.58e-01   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+   1 2.0948067209e-08   0.00e+00  1.58e+00   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.09481e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.35625e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.98269e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = -1.8047          +/- 0.03278      (1.816%)
+b5              = 3.07725          +/- 0.02638      (0.8574%)
+c5              = -0.0865953       +/- 0.005722     (6.608%)
+d5              = -0.0004276       +/- 0.0003364    (78.67%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     d5     
+a5              1.000 
+b5             -0.997  1.000 
+c5              0.979 -0.991  1.000 
+d5             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:44:52 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) =a1*x**3 + b1*x**2 + c1*x + d1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1            d1           
+   0 4.1482316831e-09   0.00e+00  6.88e-02   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+   1 4.1482316831e-09   0.00e+00  6.88e-01   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.14823e-09
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.71853e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.38274e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -0.786273        +/- 0.01459      (1.855%)
+b1              = 1.34561          +/- 0.01174      (0.8725%)
+c1              = 0.0257189        +/- 0.002546     (9.901%)
+d1              = -0.000979036     +/- 0.0001497    (15.29%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     d1     
+a1              1.000 
+b1             -0.997  1.000 
+c1              0.979 -0.991  1.000 
+d1             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:44:52 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) =a2*x**3 + b2*x**2 + c2*x + d2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2            d2           
+   0 1.9815728849e-08   0.00e+00  1.04e-01   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+   1 1.9815728849e-08   0.00e+00  1.04e+00   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.98157e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.12726e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.60524e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -1.27953         +/- 0.03188      (2.492%)
+b2              = 2.01579          +/- 0.02566      (1.273%)
+c2              = 0.0667578        +/- 0.005565     (8.337%)
+d2              = -0.0023868       +/- 0.0003272    (13.71%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     d2     
+a2              1.000 
+b2             -0.997  1.000 
+c2              0.979 -0.991  1.000 
+d2             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:44:52 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) =a3*x**3 + b3*x**2 + c3*x + d3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3            d3           
+   0 5.1086252680e-08   0.00e+00  1.38e-01   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+   1 5.1086252680e-08   0.00e+00  1.38e+00   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5.10863e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000130494
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.70288e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = -1.77371         +/- 0.05119      (2.886%)
+b3              = 2.66121          +/- 0.0412       (1.548%)
+c3              = 0.121005         +/- 0.008936     (7.385%)
+d3              = -0.00409175      +/- 0.0005253    (12.84%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     d3     
+a3              1.000 
+b3             -0.997  1.000 
+c3              0.979 -0.991  1.000 
+d3             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:44:52 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) =a4*x**3 + b4*x**2 + c4*x + d4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4            d4           
+   0 2.9711471461e-08   0.00e+00  1.45e-01   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+   1 2.9711471461e-08   0.00e+00  1.45e+00   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.97115e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.9518e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.90382e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = -1.75224         +/- 0.03904      (2.228%)
+b4              = 2.82469          +/- 0.03142      (1.112%)
+c4              = 0.0306747        +/- 0.006815     (22.22%)
+d4              = -0.00248161      +/- 0.0004006    (16.14%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     d4     
+a4              1.000 
+b4             -0.997  1.000 
+c4              0.979 -0.991  1.000 
+d4             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:44:52 2020
+
+
+FIT:    data read from 'Egap_even__Delta=2.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) =a5*x**3 + b5*x**2 + c5*x + d5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5            d5           
+   0 2.0948067209e-08   0.00e+00  1.58e-01   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+   1 2.0948067209e-08   0.00e+00  1.58e+00   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.09481e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.35625e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.98269e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = -1.8047          +/- 0.03278      (1.816%)
+b5              = 3.07725          +/- 0.02638      (0.8574%)
+c5              = -0.0865953       +/- 0.005722     (6.608%)
+d5              = -0.0004276       +/- 0.0003364    (78.67%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     d5     
+a5              1.000 
+b5             -0.997  1.000 
+c5              0.979 -0.991  1.000 
+d5             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:45:04 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) =a1*x**3 + b1*x**2 + c1*x + d1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1            d1           
+   0 4.1482316831e-09   0.00e+00  6.88e-02   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+   1 4.1482316831e-09   0.00e+00  6.88e-01   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.14823e-09
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.71853e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.38274e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -0.786273        +/- 0.01459      (1.855%)
+b1              = 1.34561          +/- 0.01174      (0.8725%)
+c1              = 0.0257189        +/- 0.002546     (9.901%)
+d1              = -0.000979036     +/- 0.0001497    (15.29%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     d1     
+a1              1.000 
+b1             -0.997  1.000 
+c1              0.979 -0.991  1.000 
+d1             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:45:04 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) =a2*x**3 + b2*x**2 + c2*x + d2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2            d2           
+   0 1.9815728849e-08   0.00e+00  1.04e-01   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+   1 1.9815728849e-08   0.00e+00  1.04e+00   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.98157e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.12726e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.60524e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -1.27953         +/- 0.03188      (2.492%)
+b2              = 2.01579          +/- 0.02566      (1.273%)
+c2              = 0.0667578        +/- 0.005565     (8.337%)
+d2              = -0.0023868       +/- 0.0003272    (13.71%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     d2     
+a2              1.000 
+b2             -0.997  1.000 
+c2              0.979 -0.991  1.000 
+d2             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:45:05 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) =a3*x**3 + b3*x**2 + c3*x + d3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3            d3           
+   0 5.1086252680e-08   0.00e+00  1.38e-01   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+   1 5.1086252680e-08   0.00e+00  1.38e+00   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5.10863e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000130494
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.70288e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = -1.77371         +/- 0.05119      (2.886%)
+b3              = 2.66121          +/- 0.0412       (1.548%)
+c3              = 0.121005         +/- 0.008936     (7.385%)
+d3              = -0.00409175      +/- 0.0005253    (12.84%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     d3     
+a3              1.000 
+b3             -0.997  1.000 
+c3              0.979 -0.991  1.000 
+d3             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:45:05 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) =a4*x**3 + b4*x**2 + c4*x + d4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4            d4           
+   0 2.9711471461e-08   0.00e+00  1.45e-01   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+   1 2.9711471461e-08   0.00e+00  1.45e+00   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.97115e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.9518e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.90382e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = -1.75224         +/- 0.03904      (2.228%)
+b4              = 2.82469          +/- 0.03142      (1.112%)
+c4              = 0.0306747        +/- 0.006815     (22.22%)
+d4              = -0.00248161      +/- 0.0004006    (16.14%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     d4     
+a4              1.000 
+b4             -0.997  1.000 
+c4              0.979 -0.991  1.000 
+d4             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:45:05 2020
+
+
+FIT:    data read from 'Egap_even__Delta=2.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) =a5*x**3 + b5*x**2 + c5*x + d5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5            d5           
+   0 2.0948067209e-08   0.00e+00  1.58e-01   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+   1 2.0948067209e-08   0.00e+00  1.58e+00   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.09481e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.35625e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.98269e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = -1.8047          +/- 0.03278      (1.816%)
+b5              = 3.07725          +/- 0.02638      (0.8574%)
+c5              = -0.0865953       +/- 0.005722     (6.608%)
+d5              = -0.0004276       +/- 0.0003364    (78.67%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     d5     
+a5              1.000 
+b5             -0.997  1.000 
+c5              0.979 -0.991  1.000 
+d5             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:45:17 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) =a1*x**3 + b1*x**2 + c1*x + d1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1            d1           
+   0 4.1482316831e-09   0.00e+00  6.88e-02   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+   1 4.1482316831e-09   0.00e+00  6.88e-01   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.14823e-09
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.71853e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.38274e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -0.786273        +/- 0.01459      (1.855%)
+b1              = 1.34561          +/- 0.01174      (0.8725%)
+c1              = 0.0257189        +/- 0.002546     (9.901%)
+d1              = -0.000979036     +/- 0.0001497    (15.29%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     d1     
+a1              1.000 
+b1             -0.997  1.000 
+c1              0.979 -0.991  1.000 
+d1             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:45:17 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) =a2*x**3 + b2*x**2 + c2*x + d2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2            d2           
+   0 1.9815728849e-08   0.00e+00  1.04e-01   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+   1 1.9815728849e-08   0.00e+00  1.04e+00   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.98157e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.12726e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.60524e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -1.27953         +/- 0.03188      (2.492%)
+b2              = 2.01579          +/- 0.02566      (1.273%)
+c2              = 0.0667578        +/- 0.005565     (8.337%)
+d2              = -0.0023868       +/- 0.0003272    (13.71%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     d2     
+a2              1.000 
+b2             -0.997  1.000 
+c2              0.979 -0.991  1.000 
+d2             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:45:17 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) =a3*x**3 + b3*x**2 + c3*x + d3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3            d3           
+   0 5.1086252680e-08   0.00e+00  1.38e-01   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+   1 5.1086252680e-08   0.00e+00  1.38e+00   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5.10863e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000130494
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.70288e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = -1.77371         +/- 0.05119      (2.886%)
+b3              = 2.66121          +/- 0.0412       (1.548%)
+c3              = 0.121005         +/- 0.008936     (7.385%)
+d3              = -0.00409175      +/- 0.0005253    (12.84%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     d3     
+a3              1.000 
+b3             -0.997  1.000 
+c3              0.979 -0.991  1.000 
+d3             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:45:17 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) =a4*x**3 + b4*x**2 + c4*x + d4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4            d4           
+   0 2.9711471461e-08   0.00e+00  1.45e-01   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+   1 2.9711471461e-08   0.00e+00  1.45e+00   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.97115e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.9518e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.90382e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = -1.75224         +/- 0.03904      (2.228%)
+b4              = 2.82469          +/- 0.03142      (1.112%)
+c4              = 0.0306747        +/- 0.006815     (22.22%)
+d4              = -0.00248161      +/- 0.0004006    (16.14%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     d4     
+a4              1.000 
+b4             -0.997  1.000 
+c4              0.979 -0.991  1.000 
+d4             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:45:17 2020
+
+
+FIT:    data read from 'Egap_even__Delta=2.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) =a5*x**3 + b5*x**2 + c5*x + d5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5            d5           
+   0 2.0948067209e-08   0.00e+00  1.58e-01   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+   1 2.0948067209e-08   0.00e+00  1.58e+00   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.09481e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.35625e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.98269e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = -1.8047          +/- 0.03278      (1.816%)
+b5              = 3.07725          +/- 0.02638      (0.8574%)
+c5              = -0.0865953       +/- 0.005722     (6.608%)
+d5              = -0.0004276       +/- 0.0003364    (78.67%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     d5     
+a5              1.000 
+b5             -0.997  1.000 
+c5              0.979 -0.991  1.000 
+d5             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:45:29 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) =a1*x**3 + b1*x**2 + c1*x + d1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1            d1           
+   0 4.1482316831e-09   0.00e+00  6.88e-02   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+   1 4.1482316831e-09   0.00e+00  6.88e-01   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.14823e-09
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.71853e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.38274e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -0.786273        +/- 0.01459      (1.855%)
+b1              = 1.34561          +/- 0.01174      (0.8725%)
+c1              = 0.0257189        +/- 0.002546     (9.901%)
+d1              = -0.000979036     +/- 0.0001497    (15.29%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     d1     
+a1              1.000 
+b1             -0.997  1.000 
+c1              0.979 -0.991  1.000 
+d1             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:45:29 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) =a2*x**3 + b2*x**2 + c2*x + d2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2            d2           
+   0 1.9815728849e-08   0.00e+00  1.04e-01   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+   1 1.9815728849e-08   0.00e+00  1.04e+00   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.98157e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.12726e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.60524e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -1.27953         +/- 0.03188      (2.492%)
+b2              = 2.01579          +/- 0.02566      (1.273%)
+c2              = 0.0667578        +/- 0.005565     (8.337%)
+d2              = -0.0023868       +/- 0.0003272    (13.71%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     d2     
+a2              1.000 
+b2             -0.997  1.000 
+c2              0.979 -0.991  1.000 
+d2             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:45:29 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) =a3*x**3 + b3*x**2 + c3*x + d3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3            d3           
+   0 5.1086252680e-08   0.00e+00  1.38e-01   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+   1 5.1086252680e-08   0.00e+00  1.38e+00   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5.10863e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000130494
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.70288e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = -1.77371         +/- 0.05119      (2.886%)
+b3              = 2.66121          +/- 0.0412       (1.548%)
+c3              = 0.121005         +/- 0.008936     (7.385%)
+d3              = -0.00409175      +/- 0.0005253    (12.84%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     d3     
+a3              1.000 
+b3             -0.997  1.000 
+c3              0.979 -0.991  1.000 
+d3             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:45:29 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) =a4*x**3 + b4*x**2 + c4*x + d4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4            d4           
+   0 2.9711471461e-08   0.00e+00  1.45e-01   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+   1 2.9711471461e-08   0.00e+00  1.45e+00   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.97115e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.9518e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.90382e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = -1.75224         +/- 0.03904      (2.228%)
+b4              = 2.82469          +/- 0.03142      (1.112%)
+c4              = 0.0306747        +/- 0.006815     (22.22%)
+d4              = -0.00248161      +/- 0.0004006    (16.14%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     d4     
+a4              1.000 
+b4             -0.997  1.000 
+c4              0.979 -0.991  1.000 
+d4             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:45:29 2020
+
+
+FIT:    data read from 'Egap_even__Delta=2.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) =a5*x**3 + b5*x**2 + c5*x + d5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5            d5           
+   0 2.0948067209e-08   0.00e+00  1.58e-01   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+   1 2.0948067209e-08   0.00e+00  1.58e+00   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.09481e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.35625e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.98269e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = -1.8047          +/- 0.03278      (1.816%)
+b5              = 3.07725          +/- 0.02638      (0.8574%)
+c5              = -0.0865953       +/- 0.005722     (6.608%)
+d5              = -0.0004276       +/- 0.0003364    (78.67%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     d5     
+a5              1.000 
+b5             -0.997  1.000 
+c5              0.979 -0.991  1.000 
+d5             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:46:06 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) =a1*x**3 + b1*x**2 + c1*x + d1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1            d1           
+   0 4.1482316831e-09   0.00e+00  6.88e-02   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+   1 4.1482316831e-09   0.00e+00  6.88e-01   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.14823e-09
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.71853e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.38274e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -0.786273        +/- 0.01459      (1.855%)
+b1              = 1.34561          +/- 0.01174      (0.8725%)
+c1              = 0.0257189        +/- 0.002546     (9.901%)
+d1              = -0.000979036     +/- 0.0001497    (15.29%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     d1     
+a1              1.000 
+b1             -0.997  1.000 
+c1              0.979 -0.991  1.000 
+d1             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:46:06 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) =a2*x**3 + b2*x**2 + c2*x + d2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2            d2           
+   0 1.9815728849e-08   0.00e+00  1.04e-01   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+   1 1.9815728849e-08   0.00e+00  1.04e+00   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.98157e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.12726e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.60524e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -1.27953         +/- 0.03188      (2.492%)
+b2              = 2.01579          +/- 0.02566      (1.273%)
+c2              = 0.0667578        +/- 0.005565     (8.337%)
+d2              = -0.0023868       +/- 0.0003272    (13.71%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     d2     
+a2              1.000 
+b2             -0.997  1.000 
+c2              0.979 -0.991  1.000 
+d2             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:46:06 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) =a3*x**3 + b3*x**2 + c3*x + d3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3            d3           
+   0 5.1086252680e-08   0.00e+00  1.38e-01   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+   1 5.1086252680e-08   0.00e+00  1.38e+00   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5.10863e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000130494
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.70288e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = -1.77371         +/- 0.05119      (2.886%)
+b3              = 2.66121          +/- 0.0412       (1.548%)
+c3              = 0.121005         +/- 0.008936     (7.385%)
+d3              = -0.00409175      +/- 0.0005253    (12.84%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     d3     
+a3              1.000 
+b3             -0.997  1.000 
+c3              0.979 -0.991  1.000 
+d3             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:46:06 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) =a4*x**3 + b4*x**2 + c4*x + d4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4            d4           
+   0 2.9711471461e-08   0.00e+00  1.45e-01   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+   1 2.9711471461e-08   0.00e+00  1.45e+00   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.97115e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.9518e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.90382e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = -1.75224         +/- 0.03904      (2.228%)
+b4              = 2.82469          +/- 0.03142      (1.112%)
+c4              = 0.0306747        +/- 0.006815     (22.22%)
+d4              = -0.00248161      +/- 0.0004006    (16.14%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     d4     
+a4              1.000 
+b4             -0.997  1.000 
+c4              0.979 -0.991  1.000 
+d4             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:46:06 2020
+
+
+FIT:    data read from 'Egap_even__Delta=2.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) =a5*x**3 + b5*x**2 + c5*x + d5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5            d5           
+   0 2.0948067209e-08   0.00e+00  1.58e-01   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+   1 2.0948067209e-08   0.00e+00  1.58e+00   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.09481e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.35625e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.98269e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = -1.8047          +/- 0.03278      (1.816%)
+b5              = 3.07725          +/- 0.02638      (0.8574%)
+c5              = -0.0865953       +/- 0.005722     (6.608%)
+d5              = -0.0004276       +/- 0.0003364    (78.67%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     d5     
+a5              1.000 
+b5             -0.997  1.000 
+c5              0.979 -0.991  1.000 
+d5             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:46:48 2020
+
+
+FIT:    data read from 'Egap_odd__Delta=0.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) =a1*x**3 + b1*x**2 + c1*x + d1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1            d1           
+   0 1.5148767389e-02   0.00e+00  3.38e-02   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+   6 1.0596587586e-09  -9.20e-04  3.38e-08   -2.523106e+00   2.881848e+00   3.020743e-02  -1.124229e-03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.05966e-09
+rel. change during last iteration : -9.19526e-09
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.3018e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.29829e-10
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -2.52311         +/- 0.03498      (1.386%)
+b1              = 2.88185          +/- 0.02087      (0.7243%)
+c1              = 0.0302074        +/- 0.003658     (12.11%)
+d1              = -0.00112423      +/- 0.0001885    (16.77%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     d1     
+a1              1.000 
+b1             -0.997  1.000 
+c1              0.985 -0.995  1.000 
+d1             -0.959  0.976 -0.992  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:46:48 2020
+
+
+FIT:    data read from 'Egap_odd__Delta=0.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) =a2*x**3 + b2*x**2 + c2*x + d2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2            d2           
+   0 9.6469684437e-03   0.00e+00  5.11e-02   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+   6 2.7013753247e-09  -3.29e-04  5.11e-08   -3.213241e+00   3.444549e+00   5.793135e-02  -2.006338e-03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.70138e-09
+rel. change during last iteration : -3.2883e-09
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.67517e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.35069e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -3.21324         +/- 0.05585      (1.738%)
+b2              = 3.44455          +/- 0.03333      (0.9676%)
+c2              = 0.0579314        +/- 0.00584      (10.08%)
+d2              = -0.00200634      +/- 0.000301     (15%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     d2     
+a2              1.000 
+b2             -0.997  1.000 
+c2              0.985 -0.995  1.000 
+d2             -0.959  0.976 -0.992  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:46:48 2020
+
+
+FIT:    data read from 'Egap_odd__Delta=1.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) =a3*x**3 + b3*x**2 + c3*x + d3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3            d3           
+   0 5.9992807352e-03   0.00e+00  6.80e-02   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+   6 3.6161573684e-09  -1.95e-04  6.80e-08   -3.813927e+00   4.093439e+00   6.615894e-02  -2.290368e-03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 3.61616e-09
+rel. change during last iteration : -1.94792e-09
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.25215e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.80808e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = -3.81393         +/- 0.06462      (1.694%)
+b3              = 4.09344          +/- 0.03856      (0.942%)
+c3              = 0.0661589        +/- 0.006757     (10.21%)
+d3              = -0.00229037      +/- 0.0003483    (15.21%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     d3     
+a3              1.000 
+b3             -0.997  1.000 
+c3              0.985 -0.995  1.000 
+d3             -0.959  0.976 -0.992  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:46:48 2020
+
+
+FIT:    data read from 'Egap_odd__Delta=1.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) =a4*x**3 + b4*x**2 + c4*x + d4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4            d4           
+   0 2.5715321807e-02   0.00e+00  7.11e-02   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+   6 5.0219430731e-09  -9.40e-02  7.11e-08   -4.437351e+00   4.757912e+00   9.044280e-02  -2.662109e-03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 5.02194e-09
+rel. change during last iteration : -9.39936e-07
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 5.01096e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.51097e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = -4.43735         +/- 0.07615      (1.716%)
+b4              = 4.75791          +/- 0.04544      (0.9551%)
+c4              = 0.0904428        +/- 0.007963     (8.805%)
+d4              = -0.00266211      +/- 0.0004104    (15.42%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     d4     
+a4              1.000 
+b4             -0.997  1.000 
+c4              0.985 -0.995  1.000 
+d4             -0.959  0.976 -0.992  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:46:48 2020
+
+
+FIT:    data read from 'Egap_odd__Delta=2.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) =a5*x**3 + b5*x**2 + c5*x + d5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5            d5           
+   0 6.5005859759e-02   0.00e+00  7.76e-02   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276001e-04
+   7 6.4293388022e-09  -4.13e-06  7.76e-09   -5.005864e+00   5.363774e+00   1.391993e-01  -1.631390e-03
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 6.42934e-09
+rel. change during last iteration : -4.12842e-11
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 5.66981e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.21467e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = -5.00586         +/- 0.08616      (1.721%)
+b5              = 5.36377          +/- 0.05142      (0.9586%)
+c5              = 0.139199         +/- 0.00901      (6.473%)
+d5              = -0.00163139      +/- 0.0004644    (28.47%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     d5     
+a5              1.000 
+b5             -0.997  1.000 
+c5              0.985 -0.995  1.000 
+d5             -0.959  0.976 -0.992  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:47:04 2020
+
+
+FIT:    data read from 'Egap_odd__Delta=0.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) =a1*x**3 + b1*x**2 + c1*x + d1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1            d1           
+   0 1.0596587586e-09   0.00e+00  7.38e-02   -2.523106e+00   2.881848e+00   3.020743e-02  -1.124229e-03
+   1 1.0596587586e-09  -1.46e-08  7.38e-03   -2.523106e+00   2.881848e+00   3.020743e-02  -1.124229e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.05966e-09
+rel. change during last iteration : -1.46364e-13
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.3018e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.29829e-10
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -2.52311         +/- 0.03498      (1.386%)
+b1              = 2.88185          +/- 0.02087      (0.7243%)
+c1              = 0.0302074        +/- 0.003658     (12.11%)
+d1              = -0.00112423      +/- 0.0001885    (16.77%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     d1     
+a1              1.000 
+b1             -0.997  1.000 
+c1              0.985 -0.995  1.000 
+d1             -0.959  0.976 -0.992  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:47:04 2020
+
+
+FIT:    data read from 'Egap_odd__Delta=0.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) =a2*x**3 + b2*x**2 + c2*x + d2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2            d2           
+   0 2.7013753247e-09   0.00e+00  8.88e-02   -3.213241e+00   3.444549e+00   5.793135e-02  -2.006338e-03
+   1 2.7013753247e-09   0.00e+00  8.88e-02   -3.213241e+00   3.444549e+00   5.793135e-02  -2.006338e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.70138e-09
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.67517e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.35069e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -3.21324         +/- 0.05585      (1.738%)
+b2              = 3.44455          +/- 0.03333      (0.9676%)
+c2              = 0.0579314        +/- 0.00584      (10.08%)
+d2              = -0.00200634      +/- 0.000301     (15%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     d2     
+a2              1.000 
+b2             -0.997  1.000 
+c2              0.985 -0.995  1.000 
+d2             -0.959  0.976 -0.992  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:47:04 2020
+
+
+FIT:    data read from 'Egap_odd__Delta=1.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) =a3*x**3 + b3*x**2 + c3*x + d3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3            d3           
+   0 3.6161573684e-09   0.00e+00  1.05e-01   -3.813927e+00   4.093439e+00   6.615894e-02  -2.290368e-03
+   1 3.6161573684e-09   0.00e+00  1.05e-01   -3.813927e+00   4.093439e+00   6.615894e-02  -2.290368e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 3.61616e-09
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.25215e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.80808e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = -3.81393         +/- 0.06462      (1.694%)
+b3              = 4.09344          +/- 0.03856      (0.942%)
+c3              = 0.0661589        +/- 0.006757     (10.21%)
+d3              = -0.00229037      +/- 0.0003483    (15.21%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     d3     
+a3              1.000 
+b3             -0.997  1.000 
+c3              0.985 -0.995  1.000 
+d3             -0.959  0.976 -0.992  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:47:04 2020
+
+
+FIT:    data read from 'Egap_odd__Delta=1.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) =a4*x**3 + b4*x**2 + c4*x + d4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4            d4           
+   0 5.0219430731e-09   0.00e+00  1.23e-01   -4.437351e+00   4.757912e+00   9.044280e-02  -2.662109e-03
+   1 5.0219430731e-09  -8.27e-09  1.23e-01   -4.437351e+00   4.757912e+00   9.044280e-02  -2.662109e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5.02194e-09
+rel. change during last iteration : -8.26861e-14
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 5.01096e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.51097e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = -4.43735         +/- 0.07615      (1.716%)
+b4              = 4.75791          +/- 0.04544      (0.9551%)
+c4              = 0.0904428        +/- 0.007963     (8.805%)
+d4              = -0.00266211      +/- 0.0004104    (15.42%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     d4     
+a4              1.000 
+b4             -0.997  1.000 
+c4              0.985 -0.995  1.000 
+d4             -0.959  0.976 -0.992  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:47:04 2020
+
+
+FIT:    data read from 'Egap_odd__Delta=2.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) =a5*x**3 + b5*x**2 + c5*x + d5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5            d5           
+   0 6.4293388022e-09   0.00e+00  1.39e-01   -5.005864e+00   5.363774e+00   1.391993e-01  -1.631390e-03
+   1 6.4293388022e-09  -2.44e-08  1.39e-02   -5.005864e+00   5.363774e+00   1.391993e-01  -1.631390e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 6.42934e-09
+rel. change during last iteration : -2.43548e-13
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 5.66981e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.21467e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = -5.00586         +/- 0.08616      (1.721%)
+b5              = 5.36377          +/- 0.05142      (0.9586%)
+c5              = 0.139199         +/- 0.00901      (6.473%)
+d5              = -0.00163139      +/- 0.0004644    (28.47%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     d5     
+a5              1.000 
+b5             -0.997  1.000 
+c5              0.985 -0.995  1.000 
+d5             -0.959  0.976 -0.992  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:49:46 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.400000]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) =a1*x**3 + b1*x**2 + c1*x + d1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1            d1           
+   0 6.9096900562e-03   0.00e+00  4.29e-02   -2.523106e+00   2.881848e+00   3.020743e-02  -1.124229e-03
+   7 2.2995336107e-11  -3.03e-08  4.29e-08   -1.031863e+00   1.460950e+00   9.413656e-03  -2.857997e-04
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 2.29953e-11
+rel. change during last iteration : -3.0323e-13
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.39082e-06
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.14977e-11
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -1.03186         +/- 0.01303      (1.263%)
+b1              = 1.46095          +/- 0.006182     (0.4232%)
+c1              = 0.00941366       +/- 0.0008916    (9.471%)
+d1              = -0.0002858       +/- 3.906e-05    (13.67%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     d1     
+a1              1.000 
+b1             -0.997  1.000 
+c1              0.986 -0.996  1.000 
+d1             -0.965  0.981 -0.994  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:49:46 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.400000]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) =a2*x**3 + b2*x**2 + c2*x + d2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2            d2           
+   0 4.7270602853e-03   0.00e+00  5.15e-02   -3.213241e+00   3.444549e+00   5.793135e-02  -2.006338e-03
+   6 1.5869118462e-10  -1.36e-01  5.15e-08   -1.815632e+00   2.267564e+00   3.116507e-02  -8.735325e-04
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.58691e-10
+rel. change during last iteration : -1.35929e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.90761e-06
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.93456e-11
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -1.81563         +/- 0.03424      (1.886%)
+b2              = 2.26756          +/- 0.01624      (0.7162%)
+c2              = 0.0311651        +/- 0.002342     (7.515%)
+d2              = -0.000873532     +/- 0.0001026    (11.75%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     d2     
+a2              1.000 
+b2             -0.997  1.000 
+c2              0.986 -0.996  1.000 
+d2             -0.965  0.981 -0.994  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:49:46 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.400000]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) =a3*x**3 + b3*x**2 + c3*x + d3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3            d3           
+   0 2.9277395976e-03   0.00e+00  6.12e-02   -3.813927e+00   4.093439e+00   6.615894e-02  -2.290368e-03
+   6 4.8102501953e-10  -5.73e-03  6.12e-08   -2.633881e+00   3.065171e+00   6.389655e-02  -1.663723e-03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 4.81025e-10
+rel. change during last iteration : -5.73237e-08
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.55085e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.40513e-10
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = -2.63388         +/- 0.05961      (2.263%)
+b3              = 3.06517          +/- 0.02828      (0.9225%)
+c3              = 0.0638966        +/- 0.004078     (6.382%)
+d3              = -0.00166372      +/- 0.0001787    (10.74%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     d3     
+a3              1.000 
+b3             -0.997  1.000 
+c3              0.986 -0.996  1.000 
+d3             -0.965  0.981 -0.994  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:49:46 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.400000]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) =a4*x**3 + b4*x**2 + c4*x + d4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4            d4           
+   0 1.3363904982e-02   0.00e+00  7.12e-02   -4.437351e+00   4.757912e+00   9.044280e-02  -2.662109e-03
+   6 1.8757029102e-10  -6.87e-01  7.12e-08   -2.409249e+00   3.133246e+00  -1.294576e-02  -6.270386e-04
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.8757e-10
+rel. change during last iteration : -6.86967e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.68427e-06
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.37851e-11
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = -2.40925         +/- 0.03722      (1.545%)
+b4              = 3.13325          +/- 0.01766      (0.5635%)
+c4              = -0.0129458       +/- 0.002546     (19.67%)
+d4              = -0.000627039     +/- 0.0001116    (17.79%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     d4     
+a4              1.000 
+b4             -0.997  1.000 
+c4              0.986 -0.996  1.000 
+d4             -0.965  0.981 -0.994  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:49:46 2020
+
+
+FIT:    data read from 'Egap_even__Delta=2.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.400000]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) =a5*x**3 + b5*x**2 + c5*x + d5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5            d5           
+   0 3.5713710812e-02   0.00e+00  8.06e-02   -5.005864e+00   5.363774e+00   1.391993e-01  -1.631390e-03
+   7 9.3569535775e-11  -5.27e-08  8.06e-09   -2.356888e+00   3.336573e+00  -1.232562e-01   1.131078e-03
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 9.35695e-11
+rel. change during last iteration : -5.27102e-13
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.83994e-06
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.67848e-11
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = -2.35689         +/- 0.02629      (1.116%)
+b5              = 3.33657          +/- 0.01247      (0.3738%)
+c5              = -0.123256        +/- 0.001798     (1.459%)
+d5              = 0.00113108       +/- 7.879e-05    (6.966%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     d5     
+a5              1.000 
+b5             -0.997  1.000 
+c5              0.986 -0.996  1.000 
+d5             -0.965  0.981 -0.994  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:50:01 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) =a1*x**3 + b1*x**2 + c1*x + d1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1            d1           
+   0 8.6941452383e-05   0.00e+00  7.59e-02   -1.031863e+00   1.460950e+00   9.413656e-03  -2.857997e-04
+   7 4.1482316831e-09  -1.22e-06  7.59e-09   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 4.14823e-09
+rel. change during last iteration : -1.22349e-11
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.71853e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.38274e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -0.786273        +/- 0.01459      (1.855%)
+b1              = 1.34561          +/- 0.01174      (0.8725%)
+c1              = 0.0257189        +/- 0.002546     (9.901%)
+d1              = -0.000979036     +/- 0.0001497    (15.29%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     d1     
+a1              1.000 
+b1             -0.997  1.000 
+c1              0.979 -0.991  1.000 
+d1             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:50:01 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) =a2*x**3 + b2*x**2 + c2*x + d2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2            d2           
+   0 4.1428210604e-04   0.00e+00  1.20e-01   -1.815632e+00   2.267564e+00   3.116507e-02  -8.735325e-04
+   6 1.9815728849e-08  -7.92e-01  1.20e-07   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.98157e-08
+rel. change during last iteration : -7.92113e-06
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.12726e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.60524e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -1.27953         +/- 0.03188      (2.492%)
+b2              = 2.01579          +/- 0.02566      (1.273%)
+c2              = 0.0667578        +/- 0.005565     (8.337%)
+d2              = -0.0023868       +/- 0.0003272    (13.71%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     d2     
+a2              1.000 
+b2             -0.997  1.000 
+c2              0.979 -0.991  1.000 
+d2             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:50:01 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) =a3*x**3 + b3*x**2 + c3*x + d3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3            d3           
+   0 1.0665310878e-03   0.00e+00  1.63e-01   -2.633881e+00   3.065171e+00   6.389655e-02  -1.663723e-03
+   6 5.1086252680e-08  -6.37e-02  1.63e-07   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 5.10863e-08
+rel. change during last iteration : -6.37127e-07
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000130494
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.70288e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = -1.77371         +/- 0.05119      (2.886%)
+b3              = 2.66121          +/- 0.0412       (1.548%)
+c3              = 0.121005         +/- 0.008936     (7.385%)
+d3              = -0.00409175      +/- 0.0005253    (12.84%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     d3     
+a3              1.000 
+b3             -0.997  1.000 
+c3              0.979 -0.991  1.000 
+d3             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:50:01 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) =a4*x**3 + b4*x**2 + c4*x + d4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4            d4           
+   0 6.2223124016e-04   0.00e+00  1.64e-01   -2.409249e+00   3.133246e+00  -1.294576e-02  -6.270386e-04
+   7 2.9711471461e-08  -4.58e-06  1.64e-08   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 2.97115e-08
+rel. change during last iteration : -4.57658e-11
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.9518e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.90382e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = -1.75224         +/- 0.03904      (2.228%)
+b4              = 2.82469          +/- 0.03142      (1.112%)
+c4              = 0.0306747        +/- 0.006815     (22.22%)
+d4              = -0.00248161      +/- 0.0004006    (16.14%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     d4     
+a4              1.000 
+b4             -0.997  1.000 
+c4              0.979 -0.991  1.000 
+d4             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:50:01 2020
+
+
+FIT:    data read from 'Egap_even__Delta=2.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) =a5*x**3 + b5*x**2 + c5*x + d5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5            d5           
+   0 4.3951911366e-04   0.00e+00  1.74e-01   -2.356888e+00   3.336573e+00  -1.232562e-01   1.131078e-03
+   6 2.0948067209e-08  -8.56e-01  1.74e-07   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276000e-04
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.09481e-08
+rel. change during last iteration : -8.55862e-06
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.35625e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.98269e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = -1.8047          +/- 0.03278      (1.816%)
+b5              = 3.07725          +/- 0.02638      (0.8574%)
+c5              = -0.0865953       +/- 0.005722     (6.608%)
+d5              = -0.0004276       +/- 0.0003364    (78.67%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     d5     
+a5              1.000 
+b5             -0.997  1.000 
+c5              0.979 -0.991  1.000 
+d5             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:50:18 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) =a1*x**3 + b1*x**2 + c1*x + d1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1            d1           
+   0 4.1482316831e-09   0.00e+00  6.88e-02   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+   1 4.1482316831e-09   0.00e+00  6.88e-02   -7.862730e-01   1.345613e+00   2.571890e-02  -9.790356e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.14823e-09
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.71853e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.38274e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -0.786273        +/- 0.01459      (1.855%)
+b1              = 1.34561          +/- 0.01174      (0.8725%)
+c1              = 0.0257189        +/- 0.002546     (9.901%)
+d1              = -0.000979036     +/- 0.0001497    (15.29%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     d1     
+a1              1.000 
+b1             -0.997  1.000 
+c1              0.979 -0.991  1.000 
+d1             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:50:18 2020
+
+
+FIT:    data read from 'Egap_even__Delta=0.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) =a2*x**3 + b2*x**2 + c2*x + d2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2            d2           
+   0 1.9815728849e-08   0.00e+00  1.04e-01   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+   1 1.9815728849e-08   0.00e+00  1.04e+00   -1.279533e+00   2.015794e+00   6.675785e-02  -2.386800e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.98157e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.12726e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.60524e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -1.27953         +/- 0.03188      (2.492%)
+b2              = 2.01579          +/- 0.02566      (1.273%)
+c2              = 0.0667578        +/- 0.005565     (8.337%)
+d2              = -0.0023868       +/- 0.0003272    (13.71%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     d2     
+a2              1.000 
+b2             -0.997  1.000 
+c2              0.979 -0.991  1.000 
+d2             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:50:18 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) =a3*x**3 + b3*x**2 + c3*x + d3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3            d3           
+   0 5.1086252680e-08   0.00e+00  1.38e-01   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+   1 5.1086252680e-08  -7.77e-10  1.38e-02   -1.773712e+00   2.661207e+00   1.210050e-01  -4.091754e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5.10863e-08
+rel. change during last iteration : -7.77208e-15
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000130494
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.70288e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = -1.77371         +/- 0.05119      (2.886%)
+b3              = 2.66121          +/- 0.0412       (1.548%)
+c3              = 0.121005         +/- 0.008936     (7.385%)
+d3              = -0.00409175      +/- 0.0005253    (12.84%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     d3     
+a3              1.000 
+b3             -0.997  1.000 
+c3              0.979 -0.991  1.000 
+d3             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:50:18 2020
+
+
+FIT:    data read from 'Egap_even__Delta=1.50.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) =a4*x**3 + b4*x**2 + c4*x + d4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4            d4           
+   0 2.9711471461e-08   0.00e+00  1.45e-01   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+   1 2.9711471461e-08   0.00e+00  1.45e-02   -1.752238e+00   2.824691e+00   3.067465e-02  -2.481610e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.97115e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.9518e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.90382e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = -1.75224         +/- 0.03904      (2.228%)
+b4              = 2.82469          +/- 0.03142      (1.112%)
+c4              = 0.0306747        +/- 0.006815     (22.22%)
+d4              = -0.00248161      +/- 0.0004006    (16.14%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     d4     
+a4              1.000 
+b4             -0.997  1.000 
+c4              0.979 -0.991  1.000 
+d4             -0.937  0.958 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Apr 01 20:50:18 2020
+
+
+FIT:    data read from 'Egap_even__Delta=2.00.txt'
+        format = z
+        x range restricted to [0.00000 : 0.550000]
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) =a5*x**3 + b5*x**2 + c5*x + d5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5            d5           
+   0 2.0948067209e-08   0.00e+00  1.58e-01   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276000e-04
+   1 2.0948067209e-08   0.00e+00  1.58e+00   -1.804701e+00   3.077248e+00  -8.659533e-02  -4.276000e-04
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.09481e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.35625e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.98269e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = -1.8047          +/- 0.03278      (1.816%)
+b5              = 3.07725          +/- 0.02638      (0.8574%)
+c5              = -0.0865953       +/- 0.005722     (6.608%)
+d5              = -0.0004276       +/- 0.0003364    (78.67%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     d5     
+a5              1.000 
+b5             -0.997  1.000 
+c5              0.979 -0.991  1.000 
+d5             -0.937  0.958 -0.985  1.000 

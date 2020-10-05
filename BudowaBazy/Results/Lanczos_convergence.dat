@@ -1,0 +1,14 @@
+cd 'C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Results'
+
+L = 11
+delta = 0
+
+set xlabel '{/*1.3 lanczos step}'
+set ylabel '{/*1.3 energy}'
+set title sprintf('{/*1.3 Lanczos eigenvalues vs step for L=%d and {/Symbol D}=%0.0f}', L, delta)
+
+
+set key outside below maxrows(1) title "\n"
+
+plot sprintf('Eigenvalues_Lanczos_Delta=%0.0f.txt',delta) title 'Lanczos'#,\
+ sprintf('Energies_Delta=%0.0f.txt',delta) title 'Exact Diagonalization'

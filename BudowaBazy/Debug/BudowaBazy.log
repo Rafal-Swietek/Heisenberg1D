@@ -1,0 +1,7 @@
+﻿  Heisenberg1D.cpp
+D:\Windows Kits\10\Include\10.0.18362.0\ucrt\tgmath.h(27): warning UCRT4000: The Universal CRT implementation of tgmath.h does not conform to the C99 standard. Functionality equivalent to the type-generic functions provided by tgmath.h is available in <ctgmath> when compiling as C++. If compiling in C++17 mode or higher (/std:c++17), this header will automatically include <ctgmath> instead. You can define _CRT_SILENCE_NONCONFORMING_TGMATH_H to acknowledge that you have received this warning.
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp(14,20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp(122,15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp(202,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Heisenberg1D.cpp(203,28): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  BudowaBazy.vcxproj -> C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\Debug\BudowaBazy.exe

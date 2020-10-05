@@ -1,0 +1,27 @@
+cd 'C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Results\Spin'
+
+set xlabel '{/*1.3 i^{th} site}'
+set ylabel '{/*1.3{/Symbol z}(i,t)}'
+set cblabel 'time'
+
+unset key
+
+set autoscale xy
+
+L = 16
+delta = 8
+
+unset label
+
+set title sprintf("{/*1.3 Correlation function over time for {/Symbol D} = %0.0f}\
+\n\n{/*1.2{/Symbol z}(i,t) = <S@_{z}^i(t) S@_{z}^{i+1}(t)> - <S@_{z}^i(t)><S@_{z}^{i+1}(t)>}}", delta)
+
+#set label '{/*1.2{/Symbol z}(i,t) = <S@_{z}^0(t) S@_{z}^i(t)> - <S@_{z}^0(t)><S@_{z}^i(t)>}}' at screen 0.33, 0.9
+
+set palette defined (0.05*L "blue", 0.25*L "royalblue", 0.5*L "cyan", 0.75*L "sea-green", L "green", 1.25*L "dark-yellow", 1.5*L "yellow", 1.75*L "orange", 2*L "red")
+set xrange [1:L-1]
+
+stats sprintf('Spin correlator_Delta=%0.0f.txt',delta) u 1:2 nooutput # calculates the number of blocks (separated by header)
+n = STATS_blocks # number of blocks - plots for different times
+
+plot for[in=1:n:3] sprintf('Spin correlator_Delta=%0.0f.txt',delta) i in u 1:2:3 w lp lc palette ps 0.4 

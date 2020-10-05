@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.25.28610\include\xlocale" md5="48b1bdf6f3916796193cd4cb8dda87e7">
+    <snippet line="297">
+      <line line="294">        if (_Cat != none) { // worth adding, do it</line>
+      <line line="295">            _Facet_guard _Guard{_Ptr};</line>
+      <line line="296">            _BEGIN_LOCINFO(_Lobj(_Cat, _Str.c_str()))</line>
+      <line line="297">            if (_Badname(_Lobj)) {</line>
+      <line line="298">                _Bad = true;</line>
+    </snippet>
+    <snippet line="301">
+      <line line="298">                _Bad = true;</line>
+      <line line="299">            } else { // name okay, build the locale</line>
+      <line line="300">                _Locimp::_Makeloc(_Lobj, _Cat, _Ptr, nullptr);</line>
+      <line line="301">                _Ptr-&gt;_Catmask = _Cat;</line>
+      <line line="302">                _Ptr-&gt;_Name    = _Str.c_str();</line>
+    </snippet>
+    <snippet line="328">
+      <line line="325">    }</line>
+      <line line="326"/>
+      <line line="327">    locale(const locale&amp; _Loc, const char* _Locname, category _Cat) : _Ptr(_Locimp::_New_Locimp(*_Loc._Ptr)) {</line>
+      <line line="328">        // construct a locale by copying, replacing named facets</line>
+      <line line="329">        // _Locname might have been returned from setlocale().</line>
+    </snippet>
+  </file>
+</snippets>

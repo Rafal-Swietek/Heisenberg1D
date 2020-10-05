@@ -1,0 +1,268 @@
+
+
+*******************************************************************************
+Sat Apr 11 14:07:56 2020
+
+
+FIT:    data read from 'Overlap time evolution_Delta=0.txt' u 1:3
+        format = x:z
+        #datapoints = 801
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Sat Apr 11 14:08:04 2020
+
+
+FIT:    data read from 'Overlap time evolution_Delta=0.txt' u 1:3
+        format = x:z
+        #datapoints = 801
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*sin(w*x+p)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             w             p            
+   0 8.0672909014e+02   0.00e+00  1.87e+01    1.000000e+00   1.000000e+00   1.000000e+00
+   6 3.9977846188e+02  -6.67e-01  1.87e-02   -7.049985e-03   9.479738e-01   1.245145e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 399.778
+rel. change during last iteration : -6.67263e-06
+
+degrees of freedom    (FIT_NDF)                        : 798
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.707796
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.500976
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -0.00704998      +/- 0.03526      (500.2%)
+w               = 0.947974         +/- 0.2194       (23.15%)
+p               = 1.24514          +/- 10.13        (813.4%)
+
+correlation matrix of the fit parameters:
+                a      w      p      
+a               1.000 
+w              -0.024  1.000 
+p               0.021 -0.868  1.000 
+
+
+*******************************************************************************
+Sat Apr 11 14:28:48 2020
+
+
+FIT:    data read from 'Overlap time evolution_Delta=0.txt' u 1:3
+        format = x:z
+        #datapoints = 801
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*sin(w*x+p) + x0
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Sat Apr 11 14:28:52 2020
+
+
+FIT:    data read from 'Overlap time evolution_Delta=0.txt' u 1:3
+        format = x:z
+        #datapoints = 801
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*sin(w*x+p) + x0
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             w             p             x0           
+   0 1.2066740969e+03   0.00e+00  5.12e-01   -7.049985e-03   9.479738e-01   1.245145e+00   1.000000e+00
+   2 3.9976698432e+02  -8.45e-02  5.12e-02   -7.114280e-03   9.486299e-01   1.298311e+00  -3.674575e-03
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 399.767
+rel. change during last iteration : -8.45387e-07
+
+degrees of freedom    (FIT_NDF)                        : 797
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.70823
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.50159
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -0.00711428      +/- 0.03527      (495.8%)
+w               = 0.94863          +/- 0.2182       (23%)
+p               = 1.29831          +/- 10.05        (774.2%)
+x0              = -0.00367457      +/- 0.02507      (682.3%)
+
+correlation matrix of the fit parameters:
+                a      w      p      x0     
+a               1.000 
+w              -0.025  1.000 
+p               0.022 -0.868  1.000 
+x0             -0.012  0.061 -0.053  1.000 
+
+
+*******************************************************************************
+Sat Apr 11 14:30:22 2020
+
+
+FIT:    data read from 'temp.txt' u 1:3
+        format = x:z
+        #datapoints = 101
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*sin(w*x+p) + x0
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             w             p             x0           
+   0 5.0727746716e+01   0.00e+00  1.47e-02   -7.114280e-03   9.486299e-01   1.298311e+00  -3.674575e-03
+  13 5.0525581840e+01  -8.44e-01  1.47e-01   -6.749519e-02   8.912134e-01   1.790205e+00  -5.342213e-03
+
+After 13 iterations the fit converged.
+final sum of squares of residuals : 50.5256
+rel. change during last iteration : -8.44279e-06
+
+degrees of freedom    (FIT_NDF)                        : 97
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.721722
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.520882
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -0.0674952       +/- 0.1057       (156.6%)
+w               = 0.891213         +/- 0.5086       (57.07%)
+p               = 1.7902           +/- 2.992        (167.1%)
+x0              = -0.00534221      +/- 0.07529      (1409%)
+
+correlation matrix of the fit parameters:
+                a      w      p      x0     
+a               1.000 
+w               0.179  1.000 
+p              -0.154 -0.857  1.000 
+x0             -0.010  0.002 -0.156  1.000 
+
+
+*******************************************************************************
+Sat Apr 11 14:30:42 2020
+
+
+FIT:    data read from 'temp.txt' u 1:3
+        format = x:z
+        x range restricted to [0.00000 : 80.0000]
+        #datapoints = 101
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*sin(w*x+p) + x0
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             w             p             x0           
+   0 5.0525581840e+01   0.00e+00  1.36e-01   -6.749519e-02   8.912134e-01   1.790205e+00  -5.342213e-03
+   2 5.0524689550e+01  -9.75e-02  1.36e-02   -7.070939e-02   9.180039e-01   1.594517e+00  -5.230576e-03
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 50.5247
+rel. change during last iteration : -9.74787e-07
+
+degrees of freedom    (FIT_NDF)                        : 97
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.721715
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.520873
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -0.0707094       +/- 0.1042       (147.4%)
+w               = 0.918004         +/- 0.5074       (55.27%)
+p               = 1.59452          +/- 2.989        (187.5%)
+x0              = -0.00523058      +/- 0.07533      (1440%)
+
+correlation matrix of the fit parameters:
+                a      w      p      x0     
+a               1.000 
+w               0.184  1.000 
+p              -0.157 -0.866  1.000 
+x0             -0.030 -0.002 -0.149  1.000 
+
+
+*******************************************************************************
+Sat Apr 11 14:31:17 2020
+
+
+FIT:    data read from 'temp.txt' u 1:3
+        format = x:z
+        x range restricted to [0.00000 : 10.0000]
+        #datapoints = 101
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*sin(w*x+p) + x0
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             w             p             x0           
+   0 5.0524689550e+01   0.00e+00  1.43e-01   -7.070939e-02   9.180039e-01   1.594517e+00  -5.230576e-03
+   2 5.0523440965e+01  -4.22e-01  1.43e-01   -7.082019e-02   9.073681e-01   1.620659e+00  -5.227317e-03
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 50.5234
+rel. change during last iteration : -4.21748e-06
+
+degrees of freedom    (FIT_NDF)                        : 97
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.721706
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.52086
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -0.0708202       +/- 0.1048       (147.9%)
+w               = 0.907368         +/- 0.498        (54.88%)
+p               = 1.62066          +/- 2.956        (182.4%)
+x0              = -0.00522732      +/- 0.07533      (1441%)
+
+correlation matrix of the fit parameters:
+                a      w      p      x0     
+a               1.000 
+w               0.181  1.000 
+p              -0.154 -0.865  1.000 
+x0             -0.037  0.001 -0.151  1.000 
+
+
+*******************************************************************************
+Sat Apr 11 14:31:34 2020
+
+
+FIT:    data read from 'temp.txt' u 1:3
+        format = x:z
+        x range restricted to [0.00000 : 10.0000]
+        #datapoints = 101
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = sin(w*x+p) + x0
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   w             p             x0           
+   0 1.0691012347e+02   0.00e+00  2.31e+00    9.073681e-01   1.620659e+00  -5.227317e-03
+  16 9.8960742962e+01  -7.58e-01  2.31e-16    7.204874e-01   2.743637e+00   2.240069e-03
+
+After 16 iterations the fit converged.
+final sum of squares of residuals : 98.9607
+rel. change during last iteration : -7.5762e-06
+
+degrees of freedom    (FIT_NDF)                        : 98
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.00489
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.0098
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+w               = 0.720487         +/- 0.04114      (5.709%)
+p               = 2.74364          +/- 0.2473       (9.012%)
+x0              = 0.00224007       +/- 0.1016       (4535%)
+
+correlation matrix of the fit parameters:
+                w      p      x0     
+w               1.000 
+p              -0.835  1.000 
+x0              0.027  0.074  1.000 

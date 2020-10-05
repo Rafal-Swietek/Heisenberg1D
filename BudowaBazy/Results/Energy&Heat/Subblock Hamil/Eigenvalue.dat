@@ -1,0 +1,9 @@
+cd 'C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Results\Subblock Hamil'
+
+set title 'Energy bands for {/Symbol D} = 1 - S_z=0 block'
+set ylabel 'E/J'
+set xlabel 'L - chain length'
+unset key
+set autoscale xy
+set xrange [1.5:16.5]
+plot 'Eigenvalues_Delta=1.00.txt' w p ps 2

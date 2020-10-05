@@ -1,0 +1,49 @@
+
+=== Start: [2020/04/19 16:12:17] === 
+Analysis started...
+Result file: C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\My Inspector Results - BudowaBazy\r003mi3\r003mi3.inspxe 
+Analysis started for c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe (pid = 13120) 
+Loaded module: c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe, address range [0x7ff7069b0000-0x7ff706b60fff] 
+Loaded module: c:\windows\system32\kernelbase.dll, address range [0x7ffe7a830000-0x7ffe7aad2fff] 
+Loaded module: c:\windows\system32\kernel32.dll, address range [0x7ffe7c730000-0x7ffe7c7e1fff] 
+Loaded module: c:\windows\system32\ntdll.dll, address range [0x7ffe7d8a0000-0x7ffe7da8ffff] 
+Loaded module: c:\windows\system32\msvcp140d.dll, address range [0x7ffdf3b10000-0x7ffdf3bf6fff] 
+Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll, address range [0x7ffdf3910000-0x7ffdf3b0ffff], minimal analysis 
+Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_core.dll, address range [0x7ffde4750000-0x7ffde8b7afff], minimal analysis 
+Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_intel_thread.dll, address range [0x7ffdeaf10000-0x7ffdece72fff] 
+Loaded module: c:\windows\system32\vcruntime140d.dll, address range [0x7ffe11e50000-0x7ffe11e79fff] 
+Loaded module: c:\windows\system32\vcruntime140_1d.dll, address range [0x7ffe5de10000-0x7ffe5de1efff] 
+Loaded module: c:\windows\system32\ucrtbased.dll, address range [0x7ffdf3740000-0x7ffdf3902fff] 
+Loaded module: c:\program files (x86)\intelswtools\inspector 2020\bin64\runtime\libittnotify.dll, address range [0x7ffdf6ff0000-0x7ffdf7023fff], minimal analysis 
+Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\libimalloc.dll, address range [0x2bc99a30000-0x2bc99a33fff] 
+Unloaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\libimalloc.dll 
+Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\libimalloc.dll, address range [0x2bc99a30000-0x2bc99a33fff] 
+Unloaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\libimalloc.dll 
+Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_def.dll, address range [0x7ffde2550000-0x7ffde4741fff] 
+Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_vml_def.dll, address range [0x7ffdf1550000-0x7ffdf1be4fff] 
+Loaded module: c:\windows\system32\kernel.appcore.dll, address range [0x7ffe7a7e0000-0x7ffe7a7f0fff] 
+Loaded module: c:\windows\system32\msvcrt.dll, address range [0x7ffe7bb20000-0x7ffe7bbbdfff] 
+Loaded module: c:\windows\system32\rpcrt4.dll, address range [0x7ffe7c0d0000-0x7ffe7c1effff] 
+Process c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe exited with code 0. Leak analysis starting. Please wait... 
+Unloaded module: C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe 
+Unloaded module: C:\WINDOWS\System32\KERNELBASE.dll 
+Unloaded module: C:\WINDOWS\System32\KERNEL32.DLL 
+Unloaded module: C:\WINDOWS\SYSTEM32\ntdll.dll 
+Unloaded module: C:\WINDOWS\SYSTEM32\MSVCP140D.dll 
+Unloaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll 
+Unloaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_core.dll 
+Unloaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_intel_thread.dll 
+Unloaded module: C:\WINDOWS\SYSTEM32\VCRUNTIME140D.dll 
+Unloaded module: C:\WINDOWS\SYSTEM32\VCRUNTIME140_1D.dll 
+Unloaded module: C:\WINDOWS\SYSTEM32\ucrtbased.dll 
+Unloaded module: C:\Program Files (x86)\IntelSWTools\Inspector 2020\bin64\runtime\libittnotify.dll 
+Unloaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_def.dll 
+Unloaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_vml_def.dll 
+Unloaded module: C:\WINDOWS\System32\kernel.appcore.dll 
+Unloaded module: C:\WINDOWS\System32\msvcrt.dll 
+Unloaded module: C:\WINDOWS\System32\RPCRT4.dll 
+Completed analysis for c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe 
+Application exit code: 0 
+Result file: C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\My Inspector Results - BudowaBazy\r003mi3\r003mi3.inspxe 
+Analysis completed
+=== End: [2020/04/19 16:12:34] === 

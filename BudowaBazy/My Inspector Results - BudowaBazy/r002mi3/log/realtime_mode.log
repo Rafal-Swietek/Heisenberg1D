@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+ <message severity="info">Analysis started...</message>
+ <nop/>
+ <message severity="info">Result file: C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\My Inspector Results - BudowaBazy\r002mi3\r002mi3.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis started for c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe (pid = 12060) </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe, address range [0x7ff7a8020000-0x7ff7a81d1fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\kernelbase.dll, address range [0x7ffe7a830000-0x7ffe7aad2fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\kernel32.dll, address range [0x7ffe7c730000-0x7ffe7c7e1fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\ntdll.dll, address range [0x7ffe7d8a0000-0x7ffe7da8ffff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\msvcp140d.dll, address range [0x7ffdf4680000-0x7ffdf4766fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_core.dll, address range [0x7ffdecc70000-0x7ffdf109afff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_intel_thread.dll, address range [0x7ffdf22c0000-0x7ffdf4222fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll, address range [0x7ffdf20c0000-0x7ffdf22bffff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\vcruntime140_1d.dll, address range [0x7ffe612a0000-0x7ffe612aefff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\ucrtbased.dll, address range [0x7ffdf1ef0000-0x7ffdf20b2fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\vcruntime140d.dll, address range [0x7ffe17ff0000-0x7ffe18019fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intelswtools\inspector 2020\bin64\runtime\libittnotify.dll, address range [0x7ffdf6ff0000-0x7ffdf7023fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\libimalloc.dll, address range [0x27c14980000-0x27c14983fff] </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\libimalloc.dll </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\libimalloc.dll, address range [0x27c14980000-0x27c14983fff] </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\libimalloc.dll </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_def.dll, address range [0x7ffdeaa70000-0x7ffdecc61fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_vml_def.dll, address range [0x7ffdf1850000-0x7ffdf1ee4fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\kernel.appcore.dll, address range [0x7ffe7a7e0000-0x7ffe7a7f0fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\msvcrt.dll, address range [0x7ffe7bb20000-0x7ffe7bbbdfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\rpcrt4.dll, address range [0x7ffe7c0d0000-0x7ffe7c1effff] </message>
+ <nop/>
+ <message severity="info">Process c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe exited with code 0. Leak analysis starting. Please wait... </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\WINDOWS\System32\KERNELBASE.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\WINDOWS\System32\KERNEL32.DLL </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\WINDOWS\SYSTEM32\ntdll.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\WINDOWS\SYSTEM32\MSVCP140D.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_core.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_intel_thread.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\WINDOWS\SYSTEM32\VCRUNTIME140_1D.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\WINDOWS\SYSTEM32\ucrtbased.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\WINDOWS\SYSTEM32\VCRUNTIME140D.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Program Files (x86)\IntelSWTools\Inspector 2020\bin64\runtime\libittnotify.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_def.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_vml_def.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\WINDOWS\System32\kernel.appcore.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\WINDOWS\System32\msvcrt.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\WINDOWS\System32\RPCRT4.dll </message>
+ <nop/>
+ <message severity="info">Completed analysis for c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe </message>
+ <nop/>
+ <message severity="info">Application exit code: 0 </message>
+ <nop/>
+ <message severity="info">Result file: C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\My Inspector Results - BudowaBazy\r002mi3\r002mi3.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis completed</message>
+ <nop/>
+</feedback>

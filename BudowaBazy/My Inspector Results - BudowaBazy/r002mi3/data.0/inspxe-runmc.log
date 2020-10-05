@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2020/04/19 15:40:58</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\My Inspector Results - BudowaBazy\r002mi3\r002mi3.inspxe</arg>
+</msg>
+<msg id="4" tool="mc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</arg>
+  <arg>12060</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:40:59 2020</timestamp>
+</msg>
+<msg id="5" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</arg>
+  <arg>0x7ff7a8020000</arg>
+  <arg>0x7ff7a81d1fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:40:59 2020</timestamp>
+</msg>
+<msg id="6" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\kernelbase.dll</arg>
+  <arg>0x7ffe7a830000</arg>
+  <arg>0x7ffe7aad2fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:40:59 2020</timestamp>
+</msg>
+<msg id="7" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\kernel32.dll</arg>
+  <arg>0x7ffe7c730000</arg>
+  <arg>0x7ffe7c7e1fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:40:59 2020</timestamp>
+</msg>
+<msg id="8" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\ntdll.dll</arg>
+  <arg>0x7ffe7d8a0000</arg>
+  <arg>0x7ffe7da8ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:40:59 2020</timestamp>
+</msg>
+<msg id="9" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\msvcp140d.dll</arg>
+  <arg>0x7ffdf4680000</arg>
+  <arg>0x7ffdf4766fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:00 2020</timestamp>
+</msg>
+<msg id="10" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\program files (x86)\intelswtools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_core.dll</arg>
+  <arg>0x7ffdecc70000</arg>
+  <arg>0x7ffdf109afff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:01 2020</timestamp>
+</msg>
+<msg id="11" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\program files (x86)\intelswtools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_intel_thread.dll</arg>
+  <arg>0x7ffdf22c0000</arg>
+  <arg>0x7ffdf4222fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:01 2020</timestamp>
+</msg>
+<msg id="12" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</arg>
+  <arg>0x7ffdf20c0000</arg>
+  <arg>0x7ffdf22bffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:01 2020</timestamp>
+</msg>
+<msg id="13" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\vcruntime140_1d.dll</arg>
+  <arg>0x7ffe612a0000</arg>
+  <arg>0x7ffe612aefff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:01 2020</timestamp>
+</msg>
+<msg id="14" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\ucrtbased.dll</arg>
+  <arg>0x7ffdf1ef0000</arg>
+  <arg>0x7ffdf20b2fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:01 2020</timestamp>
+</msg>
+<msg id="15" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\vcruntime140d.dll</arg>
+  <arg>0x7ffe17ff0000</arg>
+  <arg>0x7ffe18019fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:01 2020</timestamp>
+</msg>
+<msg id="16" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\program files (x86)\intelswtools\inspector 2020\bin64\runtime\libittnotify.dll</arg>
+  <arg>0x7ffdf6ff0000</arg>
+  <arg>0x7ffdf7023fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:02 2020</timestamp>
+</msg>
+<msg id="17" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>11520,15720,4296,12656</arg>
+  <arg>0,1,1,1</arg>
+  <arg>56812,2180,1889,1819</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:04 2020</timestamp>
+</msg>
+<msg id="18" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\program files (x86)\intelswtools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\libimalloc.dll</arg>
+  <arg>0x27c14980000</arg>
+  <arg>0x27c14983fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:05 2020</timestamp>
+</msg>
+<msg id="19" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\libimalloc.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:05 2020</timestamp>
+</msg>
+<msg id="20" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\program files (x86)\intelswtools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\libimalloc.dll</arg>
+  <arg>0x27c14980000</arg>
+  <arg>0x27c14983fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:05 2020</timestamp>
+</msg>
+<msg id="21" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\libimalloc.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:05 2020</timestamp>
+</msg>
+<msg id="22" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>11520,15720,4296,12656</arg>
+  <arg>0,1,1,1</arg>
+  <arg>15926,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:05 2020</timestamp>
+</msg>
+<msg id="23" tool="mc">
+  <type>THREADNAME</type>
+  <arg>11520</arg>
+  <arg>OMP Master Thread #0</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:06 2020</timestamp>
+</msg>
+<msg id="24" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>11520,15720,4296,12656</arg>
+  <arg>0,1,1,1</arg>
+  <arg>13188,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:06 2020</timestamp>
+</msg>
+<msg id="25" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\program files (x86)\intelswtools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_def.dll</arg>
+  <arg>0x7ffdeaa70000</arg>
+  <arg>0x7ffdecc61fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:06 2020</timestamp>
+</msg>
+<msg id="26" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\program files (x86)\intelswtools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_vml_def.dll</arg>
+  <arg>0x7ffdf1850000</arg>
+  <arg>0x7ffdf1ee4fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:07 2020</timestamp>
+</msg>
+<msg id="27" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>11520,15720,4296,12656</arg>
+  <arg>0,1,1,1</arg>
+  <arg>12879,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:07 2020</timestamp>
+</msg>
+<msg id="28" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>11520,15720,4296,12656</arg>
+  <arg>0,1,1,1</arg>
+  <arg>35148,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:08 2020</timestamp>
+</msg>
+<msg id="29" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>11520,15720,4296,12656</arg>
+  <arg>0,1,1,1</arg>
+  <arg>129608,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:09 2020</timestamp>
+</msg>
+<msg id="30" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>11520,15720,4296,12656,6468,5320,12428,7212,7916,16284,1360,6508,15756,6228,11036,1464,4760,540,11208</arg>
+  <arg>0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>20051,0,0,0,29,32,722,29,29,28,28,28,31,58,23,23,23,23,23</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:10 2020</timestamp>
+</msg>
+<msg id="31" tool="mc">
+  <type>THREADNAME</type>
+  <arg>6468</arg>
+  <arg>OMP Worker Thread #1</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:11 2020</timestamp>
+</msg>
+<msg id="32" tool="mc">
+  <type>THREADNAME</type>
+  <arg>5320</arg>
+  <arg>OMP Worker Thread #2</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:11 2020</timestamp>
+</msg>
+<msg id="33" tool="mc">
+  <type>THREADNAME</type>
+  <arg>12428</arg>
+  <arg>OMP Worker Thread #3</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:11 2020</timestamp>
+</msg>
+<msg id="34" tool="mc">
+  <type>THREADNAME</type>
+  <arg>7212</arg>
+  <arg>OMP Worker Thread #4</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:11 2020</timestamp>
+</msg>
+<msg id="35" tool="mc">
+  <type>THREADNAME</type>
+  <arg>7916</arg>
+  <arg>OMP Worker Thread #5</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:11 2020</timestamp>
+</msg>
+<msg id="36" tool="mc">
+  <type>THREADNAME</type>
+  <arg>16284</arg>
+  <arg>OMP Worker Thread #6</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:11 2020</timestamp>
+</msg>
+<msg id="37" tool="mc">
+  <type>THREADNAME</type>
+  <arg>1360</arg>
+  <arg>OMP Worker Thread #7</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:11 2020</timestamp>
+</msg>
+<msg id="38" tool="mc">
+  <type>THREADNAME</type>
+  <arg>6508</arg>
+  <arg>OMP Worker Thread #8</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:11 2020</timestamp>
+</msg>
+<msg id="39" tool="mc">
+  <type>THREADNAME</type>
+  <arg>15756</arg>
+  <arg>OMP Worker Thread #9</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:11 2020</timestamp>
+</msg>
+<msg id="40" tool="mc">
+  <type>THREADNAME</type>
+  <arg>6228</arg>
+  <arg>OMP Worker Thread #10</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:11 2020</timestamp>
+</msg>
+<msg id="41" tool="mc">
+  <type>THREADNAME</type>
+  <arg>11036</arg>
+  <arg>OMP Worker Thread #11</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:11 2020</timestamp>
+</msg>
+<msg id="42" tool="mc">
+  <type>THREADNAME</type>
+  <arg>1464</arg>
+  <arg>OMP Worker Thread #12</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:11 2020</timestamp>
+</msg>
+<msg id="43" tool="mc">
+  <type>THREADNAME</type>
+  <arg>4760</arg>
+  <arg>OMP Worker Thread #13</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:11 2020</timestamp>
+</msg>
+<msg id="44" tool="mc">
+  <type>THREADNAME</type>
+  <arg>540</arg>
+  <arg>OMP Worker Thread #14</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:11 2020</timestamp>
+</msg>
+<msg id="45" tool="mc">
+  <type>THREADNAME</type>
+  <arg>11208</arg>
+  <arg>OMP Worker Thread #15</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:11 2020</timestamp>
+</msg>
+<msg id="46" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>11520,15720,4296,12656,6468,5320,12428,7212,7916,16284,1360,6508,15756,6228,11036,1464,4760,540,11208</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>185077,0,0,0,82597,68095,53816,55304,27300,8118,7728,7588,7884,7970,7751,9026,7693,8393,7845</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:11 2020</timestamp>
+</msg>
+<msg id="47" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>11520,15720,4296,12656,6468,5320,12428,7212,7916,16284,1360,6508,15756,6228,11036,1464,4760,540,11208</arg>
+  <arg>0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>716661,0,0,0,313065,258160,203338,206154,92995,31515,29830,31250,31236,29975,32273,35892,31765,33330,29284</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:12 2020</timestamp>
+</msg>
+<msg id="48" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\kernel.appcore.dll</arg>
+  <arg>0x7ffe7a7e0000</arg>
+  <arg>0x7ffe7a7f0fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:13 2020</timestamp>
+</msg>
+<msg id="49" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\msvcrt.dll</arg>
+  <arg>0x7ffe7bb20000</arg>
+  <arg>0x7ffe7bbbdfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:13 2020</timestamp>
+</msg>
+<msg id="50" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\rpcrt4.dll</arg>
+  <arg>0x7ffe7c0d0000</arg>
+  <arg>0x7ffe7c1effff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:13 2020</timestamp>
+</msg>
+<msg id="51" tool="mc">
+  <type>PROCESS_COMPLETE</type>
+  <arg>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</arg>
+  <arg>0</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:14 2020</timestamp>
+</msg>
+<msg id="52" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:14 2020</timestamp>
+</msg>
+<msg id="53" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\WINDOWS\System32\KERNELBASE.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:14 2020</timestamp>
+</msg>
+<msg id="54" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\WINDOWS\System32\KERNEL32.DLL</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:14 2020</timestamp>
+</msg>
+<msg id="55" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\WINDOWS\SYSTEM32\ntdll.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:14 2020</timestamp>
+</msg>
+<msg id="56" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\WINDOWS\SYSTEM32\MSVCP140D.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:14 2020</timestamp>
+</msg>
+<msg id="57" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_core.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:14 2020</timestamp>
+</msg>
+<msg id="58" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_intel_thread.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:14 2020</timestamp>
+</msg>
+<msg id="59" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:14 2020</timestamp>
+</msg>
+<msg id="60" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\WINDOWS\SYSTEM32\VCRUNTIME140_1D.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:14 2020</timestamp>
+</msg>
+<msg id="61" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\WINDOWS\SYSTEM32\ucrtbased.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:14 2020</timestamp>
+</msg>
+<msg id="62" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\WINDOWS\SYSTEM32\VCRUNTIME140D.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:14 2020</timestamp>
+</msg>
+<msg id="63" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Program Files (x86)\IntelSWTools\Inspector 2020\bin64\runtime\libittnotify.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:14 2020</timestamp>
+</msg>
+<msg id="64" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_def.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:14 2020</timestamp>
+</msg>
+<msg id="65" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl\mkl_vml_def.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:14 2020</timestamp>
+</msg>
+<msg id="66" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\WINDOWS\System32\kernel.appcore.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:14 2020</timestamp>
+</msg>
+<msg id="67" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\WINDOWS\System32\msvcrt.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:14 2020</timestamp>
+</msg>
+<msg id="68" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\WINDOWS\System32\RPCRT4.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:14 2020</timestamp>
+</msg>
+<msg id="69" tool="mc">
+  <type>ANALYSIS_COMPLETE</type>
+  <arg>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Apr 19 15:41:14 2020</timestamp>
+</msg>
+<msg id="70" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="71" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\My Inspector Results - BudowaBazy\r002mi3\r002mi3.inspxe</arg>
+</msg>
+<msg id="72" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="73" tool="runtool">
+  <type>log-end</type>
+  <arg>2020/04/19 15:41:18</arg>
+</msg>
+
+</log>
+

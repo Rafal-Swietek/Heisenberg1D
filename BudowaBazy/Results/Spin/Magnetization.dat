@@ -1,0 +1,32 @@
+cd 'C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Results'
+
+L = 16
+delta = 1
+
+set autoscale xy
+
+set view map
+set pm3d map
+set pm3d interpolate 0,0
+set autoscale fix
+set dgrid3d
+unset key
+set autoscale xy
+
+set title sprintf('Evolution of on-site magnetization over time for L = %d and {/Symbol D} = %0.0f',L, delta)
+
+set xlabel 'i^{th} site'
+set ylabel 'time'
+set cblabel 'S@^i_z(t) value'
+
+#set palette rgb 34,35,36
+set palette rgbformulae 22,13,-31
+
+#set xrange [1:L]
+#set xtics 1
+#set yrange [0:L/2+1]
+
+set contour base
+set size square
+
+splot sprintf('Unitary evolution_Delta=%0.0f.txt',delta) using 1:2:3 with pm3d 

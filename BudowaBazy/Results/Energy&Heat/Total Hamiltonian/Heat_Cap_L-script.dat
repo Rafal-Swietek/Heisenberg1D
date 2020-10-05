@@ -1,0 +1,8 @@
+cd 'C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Results\Total Hamiltonian'
+
+set title 'Heat Capacity for {/Symbol D}=1 - total hamiltonian'
+set autoscale xy
+set key top right
+set ylabel 'C_v/L'
+set xlabel 'T/J'    
+plot for [i=2:14:2] 'C_L='.i.'_Delta=1.00.txt' w lp ps 0.3 title 'C_{L='.i.'}'

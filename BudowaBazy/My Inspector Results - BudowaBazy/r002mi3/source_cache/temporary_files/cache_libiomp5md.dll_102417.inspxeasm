@@ -1,0 +1,196 @@
+1057456	__kmp_suspend_64:
+1057456	push rbx
+1057457	push rsi
+1057458	push rdi
+1057459	push r12
+1057461	push r13
+1057463	push r14
+1057465	sub rsp, 0x28
+1057469	mov rdi, rdx
+1057472	movsxd rcx, ecx
+1057475	mov rax, qword ptr [rip+0x7fbb6]
+1057482	mov rsi, qword ptr [rax+rcx*8]
+1057486	mov rcx, rsi
+1057489	call 0x105020 <__kmp_suspend_initialize_thread>
+1057494	lea r12, ptr [rsi+0x5e8]
+1057501	mov rcx, r12
+1057504	call qword ptr [rip+0x47d42]
+1057510	mov edx, 0x1
+1057515	mov rcx, qword ptr [rdi]
+1057518	call 0x101920 <__kmp_test_then_or64>
+1057523	cmp dword ptr [rip+0x76cc7], 0x7fffffff
+1057533	jnz 0x10230c
+1057535	cmp dword ptr [rip+0x7ffaa], 0x1
+1057542	jnz 0x1025c8
+1057548	cmp rax, qword ptr [rdi+0x10]
+1057552	jz 0x1025c8
+1057558	mov qword ptr [rsi+0x198], rdi
+1057565	mov rax, qword ptr [rdi]
+1057568	mov rdx, qword ptr [rax]
+1057571	test rdx, 0x1
+1057578	jz 0x1025d7
+1057584	mov dword ptr [rsi+0x1f0], 0x0
+1057594	cmp byte ptr [rsi+0x1ec], 0x0
+1057601	jz 0x10235a
+1057603	lea rdx, ptr [rip+0x7fbb6]
+1057610	mov eax, 0xffffffff
+1057615	mov byte ptr [rsi+0x1ec], 0x0
+1057622	lock xadd dword ptr [rdx], eax
+1057626	lea rbx, ptr [rsi+0x5b0]
+1057633	mov rcx, rbx
+1057636	call qword ptr [rip+0x47cbe]
+1057642	mov rcx, rbx
+1057645	inc dword ptr [rsi+0x5a8]
+1057651	mov r14d, dword ptr [rsi+0x5dc]
+1057658	call qword ptr [rip+0x47c90]
+1057664	mov rcx, r12
+1057667	call qword ptr [rip+0x47c87]
+1057673	mov edx, 0x1388
+1057678	mov rcx, qword ptr [rsi+0x5e0]
+1057685	call qword ptr [rip+0x47db5]
+1057691	test eax, eax
+1057693	jz 0x102414
+1057695	cmp eax, 0x102
+1057700	jz 0x1023ab
+1057702	cmp eax, 0xffffffff
+1057705	jnz 0x102389
+1057707	mov rcx, r12
+1057710	call qword ptr [rip+0x47c74]
+1057716	mov edx, 0x1
+1057721	mov rcx, qword ptr [rdi]
+1057724	call 0x101920 <__kmp_test_then_or64>
+1057729	and rax, 0xfffffffffffffffe
+1057733	cmp rax, qword ptr [rdi+0x10]
+1057737	jnz 0x102380
+1057739	mov rdx, 0xfffffffffffffffe
+1057746	mov rcx, qword ptr [rdi]
+1057749	call 0x101970 <__kmp_test_then_and64>
+1057754	mov rcx, rbx
+1057757	mov qword ptr [rsi+0x198], 0x0
+1057768	call qword ptr [rip+0x47c3a]
+1057774	mov eax, dword ptr [rsi+0x5a8]
+1057780	mov rcx, rbx
+1057783	inc dword ptr [rsi+0x5dc]
+1057789	mov dword ptr [rsi+0x5d8], eax
+1057795	call qword ptr [rip+0x47c07]
+1057801	mov rcx, r12
+1057804	call qword ptr [rip+0x47bfe]
+1057810	jmp 0x102449
+1057812	mov rcx, rbx
+1057815	call qword ptr [rip+0x47c0b]
+1057821	cmp dword ptr [rsi+0x5d8], 0x0
+1057828	jle 0x102434
+1057830	cmp r14d, dword ptr [rsi+0x5dc]
+1057837	jz 0x102434
+1057839	mov r13b, 0x1
+1057842	jmp 0x102437
+1057844	xor r13b, r13b
+1057847	mov rcx, rbx
+1057850	call qword ptr [rip+0x47bd0]
+1057856	test r13b, r13b
+1057859	jz 0x102389
+1057865	mov rcx, r12
+1057868	call qword ptr [rip+0x47bd6]
+1057874	mov rcx, rbx
+1057877	call qword ptr [rip+0x47bcd]
+1057883	mov rcx, rbx
+1057886	mov r14d, dword ptr [rsi+0x5d8]
+1057893	dec r14d
+1057896	dec dword ptr [rsi+0x5a8]
+1057902	mov dword ptr [rsi+0x5d8], r14d
+1057909	call qword ptr [rip+0x47b95]
+1057915	test r14d, r14d
+1057918	jnz 0x10248d
+1057920	mov rcx, qword ptr [rsi+0x5e0]
+1057927	call qword ptr [rip+0x47cbb]
+1057933	mov rax, qword ptr [rdi]
+1057936	mov rdx, qword ptr [rax]
+1057939	test rdx, 0x1
+1057946	jz 0x1025f0
+1057952	mov rcx, rbx
+1057955	call qword ptr [rip+0x47b7f]
+1057961	mov rcx, rbx
+1057964	inc dword ptr [rsi+0x5a8]
+1057970	mov r13d, dword ptr [rsi+0x5dc]
+1057977	call qword ptr [rip+0x47b51]
+1057983	mov rcx, r12
+1057986	call qword ptr [rip+0x47b48]
+1057992	mov edx, 0x1388
+1057997	mov rcx, qword ptr [rsi+0x5e0]
+1058004	call qword ptr [rip+0x47c76]
+1058010	test eax, eax
+1058012	jz 0x102553
+1058014	cmp eax, 0x102
+1058019	jz 0x1024ea
+1058021	cmp eax, 0xffffffff
+1058024	jnz 0x1024c8
+1058026	mov rcx, r12
+1058029	call qword ptr [rip+0x47b35]
+1058035	mov edx, 0x1
+1058040	mov rcx, qword ptr [rdi]
+1058043	call 0x101920 <__kmp_test_then_or64>
+1058048	and rax, 0xfffffffffffffffe
+1058052	cmp rax, qword ptr [rdi+0x10]
+1058056	jnz 0x1024bf
+1058058	mov rdx, 0xfffffffffffffffe
+1058065	mov rcx, qword ptr [rdi]
+1058068	call 0x101970 <__kmp_test_then_and64>
+1058073	mov rcx, rbx
+1058076	mov qword ptr [rsi+0x198], 0x0
+1058087	call qword ptr [rip+0x47afb]
+1058093	mov eax, dword ptr [rsi+0x5a8]
+1058099	mov rcx, rbx
+1058102	inc dword ptr [rsi+0x5dc]
+1058108	mov dword ptr [rsi+0x5d8], eax
+1058114	call qword ptr [rip+0x47ac8]
+1058120	mov rcx, r12
+1058123	call qword ptr [rip+0x47abf]
+1058129	jmp 0x102588
+1058131	mov rcx, rbx
+1058134	call qword ptr [rip+0x47acc]
+1058140	cmp dword ptr [rsi+0x5d8], 0x0
+1058147	jle 0x102573
+1058149	cmp r13d, dword ptr [rsi+0x5dc]
+1058156	jz 0x102573
+1058158	mov r14b, 0x1
+1058161	jmp 0x102576
+1058163	xor r14b, r14b
+1058166	mov rcx, rbx
+1058169	call qword ptr [rip+0x47a91]
+1058175	test r14b, r14b
+1058178	jz 0x1024c8
+1058184	mov rcx, r12
+1058187	call qword ptr [rip+0x47a97]
+1058193	mov rcx, rbx
+1058196	call qword ptr [rip+0x47a8e]
+1058202	mov rcx, rbx
+1058205	mov r13d, dword ptr [rsi+0x5d8]
+1058212	dec r13d
+1058215	dec dword ptr [rsi+0x5a8]
+1058221	mov dword ptr [rsi+0x5d8], r13d
+1058228	call qword ptr [rip+0x47a56]
+1058234	test r13d, r13d
+1058237	jnz 0x10248d
+1058243	jmp 0x102480
+1058248	mov rdx, 0xfffffffffffffffe
+1058255	mov rcx, qword ptr [rdi]
+1058258	call 0x101970 <__kmp_test_then_and64>
+1058263	mov rax, qword ptr [rip+0x47a32]
+1058270	mov rcx, r12
+1058273	add rsp, 0x28
+1058277	pop r14
+1058279	pop r13
+1058281	pop r12
+1058283	pop rdi
+1058284	pop rsi
+1058285	pop rbx
+1058286	jmp rax
+1058288	mov dword ptr [rsi+0x1f0], 0x1
+1058298	cmp dword ptr [rsi+0x60], 0x0
+1058302	jz 0x1025d7
+1058304	lea rdx, ptr [rip+0x7f8f9]
+1058311	mov eax, 0x1
+1058316	lock xadd dword ptr [rdx], eax
+1058320	mov byte ptr [rsi+0x1ec], 0x1
+1058327	jmp 0x1025d7
+1058329	nop dword ptr [rax], eax

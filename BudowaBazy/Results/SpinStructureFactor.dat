@@ -1,0 +1,34 @@
+cd 'C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Results'
+
+L = 10
+delta = 1
+T = 0.01
+h=0.001
+M=500
+
+set autoscale xy
+
+set view map
+set pm3d interpolate 0,0
+set dgrid3d 10*(L+1),pi*20,2
+unset key
+
+#set title sprintf('{/*1.2 Spin Structure Factor for T = %0.3f and {/Symbol D} = %0.0f}\ ',T, delta)
+set title sprintf('{/*1.2 Spin Structure Factor using Lanczos method for {/Symbol D} = %0.0f and M=%d}\ ', delta, M)
+
+set ylabel '{/*1.3 {/Symbol w}/J}' offset -4.5,0 rotate by 360
+set xlabel '{/*1.3 q/{/Symbol p} (a.u.)}' 
+set cblabel '{/*1.3 S(q,{/Symbol w})}' offset -5,8.5 rotate by 360
+
+set xtics () # clear ytics
+set xtics add ("0" 0)
+set for[i=2:L:2] xtics add (sprintf("%0.2f", 2*(i+0.0)/(L+0.0)) 2*pi/L*i)
+set yrange[0:pi]
+set xrange[0:2*pi]
+
+set size square
+
+#splot sprintf("SSF_T=0_Delta=%0.0f.txt",delta) using 1:2:3 with pm3d  
+
+#splot sprintf("SSF_Lanczos_M=%d_Delta=%0.0f.txt",M, delta) using 1:2:3 with pm3d
+splot "L12D1.txt" u 1:2:3 with pm3d

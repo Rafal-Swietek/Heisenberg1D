@@ -1,0 +1,18 @@
+-r
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\My Inspector Results - BudowaBazy\r002mi3
+--access-checks
+--no-analyze-stack
+--leak-maximum=100000
+--leak-check-on-exit
+--leak-check-on-demand
+--check-resource-leaks
+--leak-check-report-reachable
+--freelist-vol=1000000
+--guard-zone-size=32
+--stack-depth=16
+--no-close-console
+--mrte-mode=auto
+--heartbeat=1
+--enable-memory-growth
+--
+C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe

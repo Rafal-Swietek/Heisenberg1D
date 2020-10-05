@@ -1,0 +1,9 @@
+cd 'C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Results\Total Hamiltonian'
+
+set title 'Heat Capacity for 6 atoms chain - total hamiltonian'
+set ylabel 'C_v/L'
+set xlabel 'T/J'
+start=0.0; end=2.; inc=0.5
+list = ""; a=start-inc; while(a<end){list=list.sprintf("%.2f\n", a=a+inc)}    
+plot for [i in list] 'C_L=6_Delta='.i.'.txt' w lp ps 0.3 title '{/Symbol D}='.i
+

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <connectionOption></connectionOption>
+ <rdmgr>
+  <timestamp type="u64_t">1586015392</timestamp>
+  <hostname>DESKTOP-9DE0024</hostname>
+  <os>windows</os>
+  <product>Intel® Inspector 2020</product>
+  <buildNumber type="s32_t">603904</buildNumber>
+  <logicalCPUCount type="s32_t">16</logicalCPUCount>
+  <physicalCoreCount type="s32_t">8</physicalCoreCount>
+  <processorPackageCount type="s32_t">1</processorPackageCount>
+  <CPUFrequency type="s64_t">3194000000</CPUFrequency>
+  <CPUFamily type="s32_t">23</CPUFamily>
+  <CPUModel type="s32_t">8</CPUModel>
+  <CPUStepping type="s32_t">2</CPUStepping>
+  <CPUBrandName>AMD Ryzen 7 2700 Eight-Core Processor          </CPUBrandName>
+  <isa>avx2</isa>
+ </rdmgr>
+ <contextValues type="bag"/>
+ <All_Configurations-All_Platforms>
+  <analysis_type_settings>
+   <selected_analysis_type_path>C:\Program Files (x86)\IntelSWTools\Inspector 2020\config\analysis_type\ti3.cfg</selected_analysis_type_path>
+  </analysis_type_settings>
+  <target_settings>
+   <selected_workload>
+    <localhost>launch</localhost>
+   </selected_workload>
+   <result_pattern>
+    <localhost>r@@@{at}</localhost>
+   </result_pattern>
+   <workloads>
+    <localhost>
+     <launch type="pointer" type_id="dasID_cctrl2::ApplicationWorkload" ptr_type="dasID_cctrl2::IWorkload">
+      <workload>
+       <targetName>launch</targetName>
+       <enable_app_output_log type="bool">false</enable_app_output_log>
+       <project_id>{3D35E42B-F68B-4F36-B45E-C8BE22AC283E}</project_id>
+       <launch_app.app_to_launch>C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug\BudowaBazy.exe</launch_app.app_to_launch>
+       <launch_app.working_folder>C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy</launch_app.working_folder>
+       <launch_app.environment>PATH=C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl;%PATH%&#13;
+PATH=C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl;%PATH%</launch_app.environment>
+       <launch_app.environment_prepend>PATH=C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020\windows\redist\intel64\compiler;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\redist\intel64\mkl;</launch_app.environment_prepend>
+       <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
+       <result_directory.path>C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\My Inspector Results - BudowaBazy\r@@@{at}</result_directory.path>
+       <search_directories>
+        <item>
+         <value>sym=C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug</value>
+        </item>
+        <item>
+         <value>sym=C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy</value>
+        </item>
+        <item>
+         <value>bin=C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\x64\Debug</value>
+        </item>
+        <item>
+         <value>bin=C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.25.28610\bin\HostX86\x64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.25.28610\bin\HostX86\x86</value>
+        </item>
+        <item>
+         <value>bin=D:\Windows Kits\10\bin\10.0.18362.0\x86</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\tools</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\ide</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\HTML Help Workshop</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\mpi\intel64\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\mpirt</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\mpirt</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS\system32</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS\System32\Wbem</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS\System32\WindowsPowerShell\v1.0</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS\System32\OpenSSH</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\dotnet</value>
+        </item>
+        <item>
+         <value>bin=C:\Users\77swi\AppData\Local\Microsoft\WindowsApps</value>
+        </item>
+        <item>
+         <value>bin=C:\Users\77swi\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64</value>
+        </item>
+        <item>
+         <value>bin=C:\Users\77swi\AppData\Local\Pandoc</value>
+        </item>
+       </search_directories>
+       <exclude_modules type="bag"/>
+       <context>
+        <contextValue>
+         <id>appdebug</id>
+         <value>off</value>
+        </contextValue>
+        <contextValue>
+         <id>custom_debugger</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>debug_this_problem</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>debug_using</id>
+         <value>gdb</value>
+        </contextValue>
+        <contextValue>
+         <id>heartbeat</id>
+         <value type="bool">true</value>
+        </contextValue>
+        <contextValue>
+         <id>modules_switch</id>
+         <value>knob.modules_switch.include</value>
+        </contextValue>
+        <contextValue>
+         <id>mrte_mode</id>
+         <value>auto</value>
+        </contextValue>
+        <contextValue>
+         <id>process_for_analysis</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>suppressions</id>
+         <value>delete</value>
+        </contextValue>
+        <contextValue>
+         <id>targetType</id>
+         <value>launch</value>
+        </contextValue>
+        <contextValue>
+         <id>traceMpi</id>
+         <value type="bool">false</value>
+        </contextValue>
+       </context>
+      </workload>
+     </launch>
+    </localhost>
+   </workloads>
+  </target_settings>
+ </All_Configurations-All_Platforms>
+</root>

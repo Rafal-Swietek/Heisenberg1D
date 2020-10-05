@@ -1,0 +1,3693 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<diags major="2" minor="0">
+
+<diag id="1">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>2217811936</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>11520</threadid>
+			<stackstamp>2217870432</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x25021</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="2">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>4107713904</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>15720</threadid>
+			<stackstamp>4107775568</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x33ce0</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="3">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>4531404192</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>4296</threadid>
+			<stackstamp>4531421472</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x33ce0</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="4">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>4823580476</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>12656</threadid>
+			<stackstamp>4823596988</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x33ce0</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="5">
+	<type description="InvalidReadPartial">1003</type>
+	<message>
+		<timestamp>30180545824</timestamp>
+		<addr_arg>0x0000027c7c863fbc</addr_arg>
+		<op_size>32</op_size>
+		<op_addr>0x0000027c7c863fa0</op_addr>
+		<thread>
+			<thrname>OMP Master Thread #0</thrname>
+			<threadid>11520</threadid>
+			<stackstamp>30180623872</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc2e3c</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc2a11</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc3f85</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x11fe22</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0xcb29</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2ad3b</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x3c84b</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2f2bc</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x3f266</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1cdcf</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1c529</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x7c24</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2064a</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x11db50</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128742</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128265</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x14e96f</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+		<mess_addr>0x0000027c7c863f10</mess_addr>
+		<mess_offset>144</mess_offset>
+		<defined>
+			<thrname>OMP Master Thread #0</thrname>
+			<size>172</size>
+			<threadid>11520</threadid>
+			<stackstamp>30151751936</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x11fc56</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0xcb29</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2ad3b</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x3c84b</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2f2bc</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x3f266</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1cdcf</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1c529</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x7c24</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2064a</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x11db50</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128742</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128265</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x14e96f</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x1523e4</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x1522c9</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x152189</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="6">
+	<type description="InvalidReadPartial">1003</type>
+	<message>
+		<timestamp>30225671200</timestamp>
+		<addr_arg>0x0000027c7c863ecc</addr_arg>
+		<op_size>32</op_size>
+		<op_addr>0x0000027c7c863ec0</op_addr>
+		<thread>
+			<thrname>OMP Master Thread #0</thrname>
+			<threadid>11520</threadid>
+			<stackstamp>30225747968</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc2e3c</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc2a11</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc3f85</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x3f55e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2ad43</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x3c84b</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2f2bc</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x3f266</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1cdcf</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1c529</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x7c24</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2064a</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x11db50</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128742</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128265</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x14e96f</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x1523e4</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+		<mess_addr>0x0000027c7c863e20</mess_addr>
+		<mess_offset>160</mess_offset>
+		<defined>
+			<thrname>OMP Master Thread #0</thrname>
+			<size>172</size>
+			<threadid>11520</threadid>
+			<stackstamp>30199762176</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x90bd</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0xcb4d</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2ad3b</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x3c84b</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2f2bc</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x3f266</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1cdcf</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1c529</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x7c24</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2064a</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x11db50</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128742</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128265</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x14e96f</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x1523e4</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x1522c9</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x152189</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="7">
+	<type description="InvalidReadPartial">1003</type>
+	<message>
+		<timestamp>30279212960</timestamp>
+		<addr_arg>0x0000027c7c85ebde</addr_arg>
+		<op_size>32</op_size>
+		<op_addr>0x0000027c7c85ebc0</op_addr>
+		<thread>
+			<thrname>OMP Master Thread #0</thrname>
+			<threadid>11520</threadid>
+			<stackstamp>30279291008</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc2e3c</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc2a11</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc3f85</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x120132</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0xcbb9</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2ad5c</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x3c84b</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2f2bc</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x3f266</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1cdcf</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1c529</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x7c24</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2064a</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x11db50</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128742</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128265</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x14e96f</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+		<mess_addr>0x0000027c7c85ead0</mess_addr>
+		<mess_offset>240</mess_offset>
+		<defined>
+			<thrname>OMP Master Thread #0</thrname>
+			<size>270</size>
+			<threadid>11520</threadid>
+			<stackstamp>30251574272</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x11ff66</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0xcbb9</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2ad5c</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x3c84b</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2f2bc</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x3f266</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1cdcf</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1c529</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x7c24</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2064a</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x11db50</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128742</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128265</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x14e96f</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x1523e4</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x1522c9</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x152189</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="8">
+	<type description="InvalidReadPartial">1003</type>
+	<message>
+		<timestamp>30296437984</timestamp>
+		<addr_arg>0x0000027c7c85e7ee</addr_arg>
+		<op_size>32</op_size>
+		<op_addr>0x0000027c7c85e7e0</op_addr>
+		<thread>
+			<thrname>OMP Master Thread #0</thrname>
+			<threadid>11520</threadid>
+			<stackstamp>30296514528</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc2e3c</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc2a11</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc3f85</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x3f55e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2ad64</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x3c84b</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2f2bc</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x3f266</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1cdcf</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1c529</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x7c24</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2064a</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x11db50</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128742</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128265</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x14e96f</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x1523e4</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+		<mess_addr>0x0000027c7c85e6e0</mess_addr>
+		<mess_offset>256</mess_offset>
+		<defined>
+			<thrname>OMP Master Thread #0</thrname>
+			<size>270</size>
+			<threadid>11520</threadid>
+			<stackstamp>30289363008</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x90bd</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0xcbdd</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2ad5c</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x3c84b</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2f2bc</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x3f266</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1cdcf</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1c529</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x7c24</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x2064a</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x11db50</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128742</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128265</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x14e96f</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x1523e4</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x1522c9</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x152189</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="9">
+	<type description="InvalidReadPartial">1003</type>
+	<message>
+		<timestamp>31040509056</timestamp>
+		<addr_arg>0x0000027c7c8cc5a6</addr_arg>
+		<op_size>32</op_size>
+		<op_addr>0x0000027c7c8cc5a0</op_addr>
+		<thread>
+			<thrname>OMP Master Thread #0</thrname>
+			<threadid>11520</threadid>
+			<stackstamp>31040589376</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc2e3c</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc2a11</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc3f85</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x63498</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x64b1b</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x64643</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x628f8</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x622c8</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x623f5</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x62851</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x62228</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x624a4</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x640d2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61f28</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61998</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x618e1</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61955</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+		<mess_addr>0x0000027c7c8cc590</mess_addr>
+		<mess_offset>16</mess_offset>
+		<defined>
+			<thrname>OMP Master Thread #0</thrname>
+			<size>22</size>
+			<threadid>11520</threadid>
+			<stackstamp>30986773824</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61e4c</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61998</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x618e1</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61955</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61f7e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1c727</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1c815</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x7d7b</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x12e911</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x11db94</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128742</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128265</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x14e96f</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x1523e4</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x1522c9</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x152189</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x152474</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="10">
+	<type description="InvalidReadPartial">1003</type>
+	<message>
+		<timestamp>31905385664</timestamp>
+		<addr_arg>0x0000027c7c8cc5a6</addr_arg>
+		<op_size>32</op_size>
+		<op_addr>0x0000027c7c8cc5a0</op_addr>
+		<thread>
+			<thrname>OMP Master Thread #0</thrname>
+			<threadid>11520</threadid>
+			<stackstamp>31905463104</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc2e3c</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc2a11</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc3f85</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x65312</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x63671</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x64b1b</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x64643</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x628f8</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x622c8</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x623f5</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x62851</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x62228</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x624a4</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x640d2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61f28</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61998</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x618e1</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+		<mess_addr>0x0000027c7c8cc590</mess_addr>
+		<mess_offset>16</mess_offset>
+		<defined>
+			<thrname>OMP Master Thread #0</thrname>
+			<size>22</size>
+			<threadid>11520</threadid>
+			<stackstamp>30986773824</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61e4c</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61998</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x618e1</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61955</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61f7e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1c727</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1c815</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x7d7b</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x12e911</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x11db94</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128742</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128265</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x14e96f</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x1523e4</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x1522c9</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x152189</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x152474</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="11">
+	<type description="InvalidReadPartial">1003</type>
+	<message>
+		<timestamp>32469758496</timestamp>
+		<addr_arg>0x0000027c7c8cc5a6</addr_arg>
+		<op_size>32</op_size>
+		<op_addr>0x0000027c7c8cc5a0</op_addr>
+		<thread>
+			<thrname>OMP Master Thread #0</thrname>
+			<threadid>11520</threadid>
+			<stackstamp>32469854944</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc2e3c</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc2a11</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc3f85</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x63498</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x6494e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x628f8</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x622c8</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x623f5</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x62851</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x62228</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x624a4</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x640d2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61f28</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61998</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x618e1</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61955</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61f7e</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+		<mess_addr>0x0000027c7c8cc590</mess_addr>
+		<mess_offset>16</mess_offset>
+		<defined>
+			<thrname>OMP Master Thread #0</thrname>
+			<size>22</size>
+			<threadid>11520</threadid>
+			<stackstamp>32449596160</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61e4c</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61998</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x618e1</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61955</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61f7e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1c736</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1c815</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x7d7b</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x12e911</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x11db94</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128742</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128265</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x14e96f</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x1523e4</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x1522c9</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x152189</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x152474</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="12">
+	<type description="InvalidReadPartial">1003</type>
+	<message>
+		<timestamp>32831419424</timestamp>
+		<addr_arg>0x0000027c7c8d186c</addr_arg>
+		<op_size>32</op_size>
+		<op_addr>0x0000027c7c8d1860</op_addr>
+		<thread>
+			<thrname>OMP Master Thread #0</thrname>
+			<threadid>11520</threadid>
+			<stackstamp>32831494560</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc366c</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc2ad1</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc3fb8</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x62bb2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x5fc41</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x5fb7c</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x602de</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x64f79</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x649c4</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x628f8</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x622c8</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x623f5</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x62851</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x62228</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x624a4</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x640d2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61f28</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+		<mess_addr>0x0000027c7c8d1860</mess_addr>
+		<mess_offset>0</mess_offset>
+		<defined>
+			<thrname>OMP Master Thread #0</thrname>
+			<size>12</size>
+			<threadid>11520</threadid>
+			<stackstamp>32808629344</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x62bea</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x64cd2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x649c4</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x628f8</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x622c8</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x623f5</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x62851</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x62228</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x624a4</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x640d2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61f28</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61998</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x618e1</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61955</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61f7e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1c736</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1c815</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="13">
+	<type description="InvalidReadPartial">1003</type>
+	<message>
+		<timestamp>33022692000</timestamp>
+		<addr_arg>0x0000027c7c8d0f0c</addr_arg>
+		<op_size>32</op_size>
+		<op_addr>0x0000027c7c8d0f00</op_addr>
+		<thread>
+			<thrname>OMP Master Thread #0</thrname>
+			<threadid>11520</threadid>
+			<stackstamp>33022791360</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc2e3c</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc2a11</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc3f85</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc82cb</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x4da4</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0xb7f5</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0xbfba</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x75ec</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1c8b1</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x12e94d</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x11db94</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128742</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128265</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x14e96f</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x1523e4</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x1522c9</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x152189</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+		<mess_addr>0x0000027c7c8d0f00</mess_addr>
+		<mess_offset>0</mess_offset>
+		<defined>
+			<thrname>OMP Master Thread #0</thrname>
+			<size>12</size>
+			<threadid>11520</threadid>
+			<stackstamp>32476354048</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x62bea</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x64cd2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x649c4</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x628f8</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x622c8</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x623f5</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x62851</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x62228</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x624a4</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x640d2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61f28</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61998</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x618e1</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61955</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61f7e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1c736</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1c815</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="14">
+	<type description="InvalidReadPartial">1003</type>
+	<message>
+		<timestamp>33127311488</timestamp>
+		<addr_arg>0x0000027c7c8d0f0c</addr_arg>
+		<op_size>32</op_size>
+		<op_addr>0x0000027c7c8d0f00</op_addr>
+		<thread>
+			<thrname>OMP Master Thread #0</thrname>
+			<threadid>11520</threadid>
+			<stackstamp>33127388512</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc2e3c</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc2a11</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc3f85</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc82cb</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x4da4</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0xb7f5</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0xc09f</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x780c</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x3e741</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1cdcf</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x12e94d</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x11db94</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128742</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128265</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x14e96f</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x1523e4</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x1522c9</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+		<mess_addr>0x0000027c7c8d0f00</mess_addr>
+		<mess_offset>0</mess_offset>
+		<defined>
+			<thrname>OMP Master Thread #0</thrname>
+			<size>12</size>
+			<threadid>11520</threadid>
+			<stackstamp>32476354048</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x62bea</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x64cd2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x649c4</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x628f8</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x622c8</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x623f5</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x62851</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x62228</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x624a4</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x640d2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61f28</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61998</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x618e1</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61955</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61f7e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1c736</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1c815</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="15">
+	<type description="InvalidReadPartial">1003</type>
+	<message>
+		<timestamp>33172563168</timestamp>
+		<addr_arg>0x0000027c7c8d0f0c</addr_arg>
+		<op_size>32</op_size>
+		<op_addr>0x0000027c7c8d0f00</op_addr>
+		<thread>
+			<thrname>OMP Master Thread #0</thrname>
+			<threadid>11520</threadid>
+			<stackstamp>33172638944</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc2e3c</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc2a11</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc3f85</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0xc82cb</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x4da4</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0xb7f5</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0xc00f</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x773c</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x3d8a1</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1cdf3</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x12e94d</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x11db94</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128742</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x128265</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x14e96f</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x1523e4</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe</mod>
+				<rva>0x1522c9</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+		<mess_addr>0x0000027c7c8d0f00</mess_addr>
+		<mess_offset>0</mess_offset>
+		<defined>
+			<thrname>OMP Master Thread #0</thrname>
+			<size>12</size>
+			<threadid>11520</threadid>
+			<stackstamp>32476354048</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x62bea</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x64cd2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x649c4</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x628f8</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x622c8</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x623f5</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x62851</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x62228</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x624a4</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x640d2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61f28</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61998</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x618e1</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61955</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbased.dll</mod>
+				<rva>0x61f7e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1c736</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140d.dll</mod>
+				<rva>0x1c815</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="16">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>36976584990</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>6468</threadid>
+			<stackstamp>36976602110</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x1029a0</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="17">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>37027839422</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>5320</threadid>
+			<stackstamp>37027856382</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x1029a0</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="18">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>37046249630</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>12428</threadid>
+			<stackstamp>37046267614</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x1029a0</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="19">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>37050542112</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>7212</threadid>
+			<stackstamp>37050559040</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x1029a0</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="20">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>37061290160</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>7916</threadid>
+			<stackstamp>37061307248</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x1029a0</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="21">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>37066064976</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>16284</threadid>
+			<stackstamp>37066081648</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x1029a0</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="22">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>37071035872</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>1360</threadid>
+			<stackstamp>37071052256</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x1029a0</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="23">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>37073495388</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>6508</threadid>
+			<stackstamp>37073511932</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x1029a0</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="24">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>37081752464</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>15756</threadid>
+			<stackstamp>37081769040</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x1029a0</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="25">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>37086257565</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>6228</threadid>
+			<stackstamp>37086274365</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x1029a0</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="26">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>37093179326</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>11036</threadid>
+			<stackstamp>37093196734</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x1029a0</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="27">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>37097003040</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>1464</threadid>
+			<stackstamp>37097019392</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x1029a0</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="28">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>37101258608</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>4760</threadid>
+			<stackstamp>37101275600</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x1029a0</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="29">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>37106882576</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>540</threadid>
+			<stackstamp>37106899472</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x1029a0</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="30">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>37114363520</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>11208</threadid>
+			<stackstamp>37114380320</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x1029a0</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="31">
+	<type description="InvalidWrite">1004</type>
+	<message>
+		<timestamp>40238855902</timestamp>
+		<addr_arg>0x0000027c7c926f80</addr_arg>
+		<op_size>2</op_size>
+		<op_addr>0x0000027c7c926f80</op_addr>
+		<thread>
+			<thrname>OMP Worker Thread #3</thrname>
+			<threadid>12428</threadid>
+			<stackstamp>40238990302</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x33ab1</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x7386</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b571</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b3bb</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102417</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x494c7</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x4b2a6</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x912bd</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102af2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x17bce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x6ce4b</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="32">
+	<type description="InvalidWrite">1004</type>
+	<message>
+		<timestamp>40240461598</timestamp>
+		<addr_arg>0x0000027c7c926fa0</addr_arg>
+		<op_size>8</op_size>
+		<op_addr>0x0000027c7c926fa0</op_addr>
+		<thread>
+			<thrname>OMP Worker Thread #3</thrname>
+			<threadid>12428</threadid>
+			<stackstamp>40240566878</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x33acf</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x7386</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b571</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b3bb</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102417</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x494c7</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x4b2a6</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x912bd</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102af2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x17bce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x6ce4b</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="33">
+	<type description="InvalidWrite">1004</type>
+	<message>
+		<timestamp>40241850622</timestamp>
+		<addr_arg>0x0000027c7c926f88</addr_arg>
+		<op_size>8</op_size>
+		<op_addr>0x0000027c7c926f88</op_addr>
+		<thread>
+			<thrname>OMP Worker Thread #3</thrname>
+			<threadid>12428</threadid>
+			<stackstamp>40241955966</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x33ada</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x7386</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b571</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b3bb</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102417</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x494c7</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x4b2a6</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x912bd</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102af2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x17bce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x6ce4b</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="34">
+	<type description="InvalidWrite">1004</type>
+	<message>
+		<timestamp>40243421310</timestamp>
+		<addr_arg>0x0000027c7c926fa8</addr_arg>
+		<op_size>4</op_size>
+		<op_addr>0x0000027c7c926fa8</op_addr>
+		<thread>
+			<thrname>OMP Worker Thread #3</thrname>
+			<threadid>12428</threadid>
+			<stackstamp>40243526462</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x33ade</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x7386</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b571</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b3bb</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102417</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x494c7</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x4b2a6</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x912bd</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102af2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x17bce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x6ce4b</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="35">
+	<type description="InvalidWrite">1004</type>
+	<message>
+		<timestamp>40244868190</timestamp>
+		<addr_arg>0x0000027c7c926f82</addr_arg>
+		<op_size>2</op_size>
+		<op_addr>0x0000027c7c926f82</op_addr>
+		<thread>
+			<thrname>OMP Worker Thread #3</thrname>
+			<threadid>12428</threadid>
+			<stackstamp>40244972510</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x33b00</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x7386</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b571</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b3bb</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102417</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x494c7</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x4b2a6</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x912bd</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102af2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x17bce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x6ce4b</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="36">
+	<type description="InvalidWrite">1004</type>
+	<message>
+		<timestamp>40246284606</timestamp>
+		<addr_arg>0x0000027c7c926fac</addr_arg>
+		<op_size>2</op_size>
+		<op_addr>0x0000027c7c926fac</op_addr>
+		<thread>
+			<thrname>OMP Worker Thread #3</thrname>
+			<threadid>12428</threadid>
+			<stackstamp>40246407230</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x33b07</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x7386</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b571</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b3bb</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102417</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x494c7</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x4b2a6</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x912bd</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102af2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x17bce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x6ce4b</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="37">
+	<type description="InvalidRead">1002</type>
+	<message>
+		<timestamp>40251903390</timestamp>
+		<addr_arg>0x0000027c7c927bd0</addr_arg>
+		<op_size>8</op_size>
+		<op_addr>0x0000027c7c927bd0</op_addr>
+		<thread>
+			<thrname>OMP Worker Thread #3</thrname>
+			<threadid>12428</threadid>
+			<stackstamp>40252008990</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x33b3f</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x7386</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b571</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b3bb</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102417</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x494c7</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x4b2a6</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x912bd</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102af2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x17bce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x6ce4b</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="38">
+	<type description="InvalidWrite">1004</type>
+	<message>
+		<timestamp>40253278110</timestamp>
+		<addr_arg>0x0000027c7c926f98</addr_arg>
+		<op_size>8</op_size>
+		<op_addr>0x0000027c7c926f98</op_addr>
+		<thread>
+			<thrname>OMP Worker Thread #3</thrname>
+			<threadid>12428</threadid>
+			<stackstamp>40253382718</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x33b44</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x7386</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b571</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b3bb</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102417</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x494c7</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x4b2a6</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x912bd</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102af2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x17bce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x6ce4b</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="39">
+	<type description="InvalidWrite">1004</type>
+	<message>
+		<timestamp>40254669566</timestamp>
+		<addr_arg>0x0000027c7c926f90</addr_arg>
+		<op_size>8</op_size>
+		<op_addr>0x0000027c7c926f90</op_addr>
+		<thread>
+			<thrname>OMP Worker Thread #3</thrname>
+			<threadid>12428</threadid>
+			<stackstamp>40254773886</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x33b48</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x7386</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b571</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b3bb</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102417</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x494c7</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x4b2a6</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x912bd</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102af2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x17bce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x6ce4b</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="40">
+	<type description="InvalidWrite">1004</type>
+	<message>
+		<timestamp>40262262622</timestamp>
+		<addr_arg>0x0000027c7c927bd0</addr_arg>
+		<op_size>8</op_size>
+		<op_addr>0x0000027c7c927bd0</op_addr>
+		<thread>
+			<thrname>OMP Worker Thread #3</thrname>
+			<threadid>12428</threadid>
+			<stackstamp>40262375870</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x33b4b</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x7386</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b571</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b3bb</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102417</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x494c7</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x4b2a6</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x912bd</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102af2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x17bce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x6ce4b</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="41">
+	<type description="InvalidRead">1002</type>
+	<message>
+		<timestamp>40263970270</timestamp>
+		<addr_arg>0x0000027c7c926fa4</addr_arg>
+		<op_size>4</op_size>
+		<op_addr>0x0000027c7c926fa4</op_addr>
+		<thread>
+			<thrname>OMP Worker Thread #3</thrname>
+			<threadid>12428</threadid>
+			<stackstamp>40264091966</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x72a6</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b571</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b3bb</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102417</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x494c7</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x4b2a6</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x912bd</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102af2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x17bce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x6ce4b</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="42">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>46732431264</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>15720</threadid>
+			<stackstamp>46732447840</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="43">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>46732743776</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>4296</threadid>
+			<stackstamp>46732759712</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="44">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>46733022464</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>12656</threadid>
+			<stackstamp>46733038176</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="45">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>46733310464</timestamp>
+		<thread>
+			<thrname>OMP Worker Thread #1</thrname>
+			<threadid>6468</threadid>
+			<stackstamp>46733326304</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="46">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>46733589248</timestamp>
+		<thread>
+			<thrname>OMP Worker Thread #2</thrname>
+			<threadid>5320</threadid>
+			<stackstamp>46733604896</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="47">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>46733864384</timestamp>
+		<thread>
+			<thrname>OMP Worker Thread #3</thrname>
+			<threadid>12428</threadid>
+			<stackstamp>46733879936</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="48">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>46734135264</timestamp>
+		<thread>
+			<thrname>OMP Worker Thread #4</thrname>
+			<threadid>7212</threadid>
+			<stackstamp>46734150976</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="49">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>46734410240</timestamp>
+		<thread>
+			<thrname>OMP Worker Thread #5</thrname>
+			<threadid>7916</threadid>
+			<stackstamp>46734425856</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="50">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>46734683936</timestamp>
+		<thread>
+			<thrname>OMP Worker Thread #6</thrname>
+			<threadid>16284</threadid>
+			<stackstamp>46734699584</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="51">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>46734983232</timestamp>
+		<thread>
+			<thrname>OMP Worker Thread #7</thrname>
+			<threadid>1360</threadid>
+			<stackstamp>46734998848</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="52">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>46735256704</timestamp>
+		<thread>
+			<thrname>OMP Worker Thread #8</thrname>
+			<threadid>6508</threadid>
+			<stackstamp>46735272384</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="53">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>46735531488</timestamp>
+		<thread>
+			<thrname>OMP Worker Thread #9</thrname>
+			<threadid>15756</threadid>
+			<stackstamp>46735547040</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="54">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>46735803744</timestamp>
+		<thread>
+			<thrname>OMP Worker Thread #10</thrname>
+			<threadid>6228</threadid>
+			<stackstamp>46735819328</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="55">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>46736076448</timestamp>
+		<thread>
+			<thrname>OMP Worker Thread #11</thrname>
+			<threadid>11036</threadid>
+			<stackstamp>46736092032</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="56">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>46736360576</timestamp>
+		<thread>
+			<thrname>OMP Worker Thread #12</thrname>
+			<threadid>1464</threadid>
+			<stackstamp>46736376384</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="57">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>46736634304</timestamp>
+		<thread>
+			<thrname>OMP Worker Thread #13</thrname>
+			<threadid>4760</threadid>
+			<stackstamp>46736649920</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="58">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>46736904352</timestamp>
+		<thread>
+			<thrname>OMP Worker Thread #14</thrname>
+			<threadid>540</threadid>
+			<stackstamp>46736920000</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="59">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>46737181088</timestamp>
+		<thread>
+			<thrname>OMP Worker Thread #15</thrname>
+			<threadid>11208</threadid>
+			<stackstamp>46737196608</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="60">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>49458332928</timestamp>
+		<thread>
+			<thrname>OMP Master Thread #0</thrname>
+			<threadid>11520</threadid>
+			<stackstamp>49458350048</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="61">
+	<type>1012</type>
+	<message>
+		<timestamp>49532066720</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname>OMP Worker Thread #1</thrname>
+			<size>1144</size>
+			<threadid>6468</threadid>
+			<stackstamp>38120925584</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x2501e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x22e3d</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71870</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x717ce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71779</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="62">
+	<type>1012</type>
+	<message>
+		<timestamp>49532066720</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname>OMP Worker Thread #2</thrname>
+			<size>1144</size>
+			<threadid>5320</threadid>
+			<stackstamp>38134136029</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x2501e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x22e3d</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71870</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x717ce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71779</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="63">
+	<type>1012</type>
+	<message>
+		<timestamp>49532066720</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname>OMP Worker Thread #3</thrname>
+			<size>1144</size>
+			<threadid>12428</threadid>
+			<stackstamp>37147587518</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x2501e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x22e3d</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71870</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x717ce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71779</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="64">
+	<type>1012</type>
+	<message>
+		<timestamp>49532066720</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname>OMP Worker Thread #4</thrname>
+			<size>1144</size>
+			<threadid>7212</threadid>
+			<stackstamp>38158712768</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x2501e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x22e3d</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71870</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x717ce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71779</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="65">
+	<type>1012</type>
+	<message>
+		<timestamp>49532066720</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname>OMP Worker Thread #5</thrname>
+			<size>1144</size>
+			<threadid>7916</threadid>
+			<stackstamp>38167296272</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x2501e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x22e3d</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71870</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x717ce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71779</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="66">
+	<type>1012</type>
+	<message>
+		<timestamp>49532066720</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname>OMP Worker Thread #6</thrname>
+			<size>1144</size>
+			<threadid>16284</threadid>
+			<stackstamp>38181779280</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x2501e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x22e3d</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71870</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x717ce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71779</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="67">
+	<type>1012</type>
+	<message>
+		<timestamp>49532066720</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname>OMP Worker Thread #7</thrname>
+			<size>1144</size>
+			<threadid>1360</threadid>
+			<stackstamp>38194014240</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x2501e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x22e3d</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71870</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x717ce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71779</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="68">
+	<type>1012</type>
+	<message>
+		<timestamp>49532066720</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname>OMP Worker Thread #8</thrname>
+			<size>1144</size>
+			<threadid>6508</threadid>
+			<stackstamp>38203568510</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x2501e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x22e3d</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71870</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x717ce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71779</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="69">
+	<type>1012</type>
+	<message>
+		<timestamp>49532066720</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname>OMP Worker Thread #9</thrname>
+			<size>1144</size>
+			<threadid>15756</threadid>
+			<stackstamp>38212314016</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x2501e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x22e3d</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71870</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x717ce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71779</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="70">
+	<type>1012</type>
+	<message>
+		<timestamp>49532066720</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname>OMP Worker Thread #10</thrname>
+			<size>1144</size>
+			<threadid>6228</threadid>
+			<stackstamp>38238557213</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x2501e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x22e3d</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71870</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x717ce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71779</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="71">
+	<type>1012</type>
+	<message>
+		<timestamp>49532066720</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname>OMP Worker Thread #11</thrname>
+			<size>1144</size>
+			<threadid>11036</threadid>
+			<stackstamp>38256055008</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x2501e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x22e3d</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71870</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x717ce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71779</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="72">
+	<type>1012</type>
+	<message>
+		<timestamp>49532066720</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname>OMP Worker Thread #12</thrname>
+			<size>1144</size>
+			<threadid>1464</threadid>
+			<stackstamp>38273219616</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x2501e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x22e3d</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71870</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x717ce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71779</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="73">
+	<type>1012</type>
+	<message>
+		<timestamp>49532066720</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname>OMP Worker Thread #13</thrname>
+			<size>1144</size>
+			<threadid>4760</threadid>
+			<stackstamp>38290949726</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x2501e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x22e3d</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71870</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x717ce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71779</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="74">
+	<type>1012</type>
+	<message>
+		<timestamp>49532066720</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname>OMP Worker Thread #14</thrname>
+			<size>1144</size>
+			<threadid>540</threadid>
+			<stackstamp>38343507056</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x2501e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x22e3d</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71870</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x717ce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71779</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="75">
+	<type>1012</type>
+	<message>
+		<timestamp>49532066720</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname>OMP Worker Thread #15</thrname>
+			<size>1144</size>
+			<threadid>11208</threadid>
+			<stackstamp>38398524256</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x2501e</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x22e3d</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71870</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x717ce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x71779</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="76">
+	<type>1016</type>
+	<message>
+		<timestamp>49551701120</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname>OMP Worker Thread #5</thrname>
+			<size>48</size>
+			<threadid>7916</threadid>
+			<stackstamp>40266142304</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x33a7d</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x7386</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b571</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b3bb</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102417</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x494c7</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x4b2a6</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x912bd</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102af2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x17bce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x6ce4b</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="77">
+	<type>1016</type>
+	<message>
+		<timestamp>49551701120</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname>OMP Worker Thread #14</thrname>
+			<size>48</size>
+			<threadid>540</threadid>
+			<stackstamp>40269038430</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x33a7d</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x7386</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b571</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x1b3bb</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102417</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x494c7</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x4b2a6</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x912bd</rva>
+			</loc>
+			<loc>
+				<mod>c:\program files (x86)\intelswtools\compilers_and_libraries_2020\windows\redist\intel64\compiler\libiomp5md.dll</mod>
+				<rva>0x102af2</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x17bce</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x6ce4b</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+</diags>

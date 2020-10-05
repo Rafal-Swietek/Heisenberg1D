@@ -1,0 +1,20 @@
+cd 'C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Results'
+
+set xlabel "{/*1.2 time}\n"
+set ylabel '{/*1.2 |<{/Symbol y}(0)|{/Symbol y}(t)>|^2}'
+
+L = 16
+
+set title sprintf("{/*1.2 Loschmidt echo (Quantum fidelity) for L=%d}", L)
+set xrange [0:L]
+
+set key below Right maxcolumns 2 maxrows 4
+
+plot NaN w p pt 8 lc rgb "white" title '		|{/Symbol y}(0)>=|{/Symbol=\255}{/Symbol=\255}{/Symbol=\255}{/Symbol=\255}{/Symbol=\255}{/Symbol=\255}{/Symbol=\255}{/Symbol=\255}{/Symbol=\257}{/Symbol=\257}{/Symbol=\257}{/Symbol=\257}{/Symbol=\257}{/Symbol=\257}{/Symbol=\257}{/Symbol=\257}>:',\
+'Loschmidt_echo_domain-wall-state_delta=0.txt' w lp ps 0.3 title '{/Symbol D}=0		',\
+'Loschmidt_echo_domain-wall-state_delta=1.txt' w lp ps 0.3 title '{/Symbol D}=1		', \
+'Loschmidt_echo_domain-wall-state_delta=2.txt' w lp ps 0.3 title '{/Symbol D}=2		', \
+NaN w p pt 8 lc rgb "white" title '		|{/Symbol y}_{neel}(0)>=|{/Symbol=\255}{/Symbol=\257}{/Symbol=\255}{/Symbol=\257}{/Symbol=\255}{/Symbol=\257}{/Symbol=\255}{/Symbol=\257}{/Symbol=\255}{/Symbol=\257}{/Symbol=\255}{/Symbol=\257}{/Symbol=\255}{/Symbol=\257}{/Symbol=\255}{/Symbol=\257}>:',\
+'Loschmidt_echo_neel-state_delta=0.txt' w lp ps 0.3 title '{/Symbol D}=0		',\
+'Loschmidt_echo_neel-state_delta=1.txt' w lp ps 0.3 title '{/Symbol D}=1		', \
+'Loschmidt_echo_neel-state_delta=2.txt' w lp ps 0.3 title '{/Symbol D}=2		'

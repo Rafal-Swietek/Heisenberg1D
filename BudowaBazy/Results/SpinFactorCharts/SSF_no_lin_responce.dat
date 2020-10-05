@@ -1,0 +1,76 @@
+cd 'C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Results'
+L = 12
+delta = 1
+T = 0
+h = 0.0909
+
+set yrange [0:pi]
+#set cbrange[-0.1:0.1]
+
+ # infinity = {/Symbol \245}
+ # rightarrow = {/Symbol \256}
+unset ylabel
+unset xlabel 
+set xtics () # clear ytics
+
+set multiplot
+
+unset border
+unset xtics; unset ytics;
+set lmargin at screen 0.15
+set rmargin at screen 0.68
+set bmargin at screen 0.15
+set tmargin at screen 0.9
+set view map
+set pm3d map
+set pm3d interpolate 0,0
+set dgrid3d 2*(L+1),pi*10,1
+unset key
+#splot sprintf("SSF_T=0_h=%0.4f_Delta=%0.0f.txt",h,delta) using 1:2:3 with pm3d
+splot "L=10test.txt" u 1:2:3 with pm3d
+
+set xrange [0:2*pi]
+set border
+set tics out nomirror scale 2
+set mxtics 5
+
+set ylabel '{/*1.3 {/Symbol w}/J}' offset -2.5,0 rotate by 360
+set xlabel '{/*1.3 q/{/Symbol p} (a.u.)}' offset 0, 0.3
+set cblabel '{/*1.3 |S(q,{/Symbol w})|^2}' offset -5.8,10.5 rotate by 360
+set title sprintf('{/*1.2 Spin Structure Factor for T = 0, {/Symbol D} = %0.0f and h = %0.4f}\ ', delta, h)
+
+
+set xtics () # clear ytics
+set xtics add ("0" 0)
+set for[i=2:L:2] xtics add (sprintf("%0.2f", 2*(i+0.0)/(L+0.0)) 2*pi/L*i)
+
+set key outside right bottom
+
+plot pi/2*abs(sin(x)) w l lw 2 lc rgb "black" title "{/Symbol p}/2*|sin(q)|", pi*abs(sin(x/2)) w l lw 2 lc rgb "blue" title "{/Symbol p}*|sin(q/2)|"
+
+unset multiplot
+reset
+
+
+#L = 8
+#delta = 0
+#T = 0.063
+#set view map
+#set pm3d map
+#set pm3d interpolate 0,0
+#set dgrid3d
+#unset key
+#unset xtics # clear ytics
+#unset ytics
+#unset xlabel
+#unset ylabel
+#unset border
+#unset colorbox
+#set xrange [0:2*pi]
+#set size square 1,1
+#set term png transparent crop
+#set output "fff.png"
+##splot sprintf("SSF_T=%0.3f_Delta=%0.0f.txt",T,delta) using 1:2:3 with pm3d  
+#splot sprintf("SSF_Delta=%0.0f.txt",delta) u 1:2:3 with pm3d
+##splot 'SpinFactor_FFT.txt' u 1:2:3 with pm3d
+#reset 

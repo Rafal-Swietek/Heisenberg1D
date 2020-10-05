@@ -1,0 +1,53 @@
+151484	mov qword ptr [rsp+0x8], rbx
+151489	mov dword ptr [rsp+0x18], r8d
+151494	mov qword ptr [rsp+0x10], rdx
+151499	push rsi
+151500	push rdi
+151501	push r12
+151503	push r14
+151505	push r15
+151507	sub rsp, 0x40
+151511	mov r15, r9
+151514	mov esi, r8d
+151517	mov r14, rdx
+151520	mov r12, rcx
+151523	call 0x3fc30 <RtlGetCurrentServiceSessionId>
+151528	mov edi, 0x7ffe0384
+151533	test eax, eax
+151535	jnz 0xada3e
+151541	mov r10d, edi
+151544	cmp byte ptr [r10], 0x0
+151548	jnz 0xada5a
+151554	mov ebx, 0x7ffe0385
+151559	mov byte ptr [rsp+0x30], 0x0
+151564	mov r8, r15
+151567	mov edx, esi
+151569	mov rcx, r14
+151572	mov rax, r12
+151575	mov r9, qword ptr [rip+0x158fe2]
+151582	call r9
+151585	mov byte ptr [rsp+0x30], al
+151589	call 0x3fc30 <RtlGetCurrentServiceSessionId>
+151594	test eax, eax
+151596	jnz 0xadac8
+151602	cmp byte ptr [rdi], 0x0
+151605	jnz 0xadae4
+151611	cmp byte ptr [rsp+0x30], 0x0
+151616	jz 0x25058
+151618	mov al, byte ptr [rsp+0x30]
+151622	mov rbx, qword ptr [rsp+0x70]
+151627	add rsp, 0x40
+151631	pop r15
+151633	pop r14
+151635	pop r12
+151637	pop rdi
+151638	pop rsi
+151639	ret 
+151640	cmp esi, 0x1
+151643	jnz 0x25042
+151645	mov edx, 0x1496
+151650	xor r9d, r9d
+151653	mov r8b, sil
+151656	mov ecx, 0xc0000142
+151661	call 0x7dd04
+151666	jmp 0x25042

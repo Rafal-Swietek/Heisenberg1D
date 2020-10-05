@@ -1,0 +1,11 @@
+cd 'C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\Results\Subblock Hamil'
+
+set title 'Heat Capacity for 16 atoms chain - S_z=0 block'
+set ylabel 'C_v/L'
+set xlabel 'T/J'
+set autoscale xy
+set key top right
+start=0.0; end=2.; inc=0.5
+list = ""; a=start-inc; while(a<end){list=list.sprintf("%.2f\n", a=a+inc)}    
+plot for [i in list] 'C_L=16_Delta='.i.'.txt' w lp ps 0.5 title '{/Symbol D}='.i
+

@@ -1,0 +1,24 @@
+
+=== Start: [2020/04/04 17:49:54] === 
+Analysis started...
+Result file: C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\My Inspector Results - BudowaBazy\r000mi1\r000mi1.inspxe 
+Analysis started for c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe (pid = 11604) 
+Loaded module: c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe, address range [0x7ff6d7460000-0x7ff6dc455fff] 
+Loaded module: c:\windows\system32\kernelbase.dll, address range [0x7ffb57e90000-0x7ffb58132fff], minimal analysis 
+Loaded module: c:\windows\system32\kernel32.dll, address range [0x7ffb59f80000-0x7ffb5a031fff], minimal analysis 
+Loaded module: c:\windows\system32\ntdll.dll, address range [0x7ffb5ad60000-0x7ffb5af4ffff], minimal analysis 
+Loaded module: c:\program files (x86)\intelswtools\inspector 2020\bin64\dnclrprofinfo.dll, address range [0x7ffb448c0000-0x7ffb448e8fff] 
+Loaded module: c:\windows\system32\msvcp140d.dll, address range [0x7ffafbb10000-0x7ffafbc03fff] 
+Loaded module: c:\windows\system32\vcruntime140d.dll, address range [0x7ffb44760000-0x7ffb44785fff] 
+Loaded module: c:\windows\system32\vcruntime140_1d.dll, address range [0x7ffb55e40000-0x7ffb55e4efff] 
+Loaded module: c:\windows\system32\ucrtbased.dll, address range [0x7ffaf8580000-0x7ffaf8742fff] 
+Loaded module: c:\program files (x86)\intelswtools\inspector 2020\bin64\runtime\libittnotify.dll, address range [0x7ffb44720000-0x7ffb44753fff], minimal analysis 
+Loaded module: c:\windows\system32\kernel.appcore.dll, address range [0x7ffb57c30000-0x7ffb57c40fff] 
+Loaded module: c:\windows\system32\msvcrt.dll, address range [0x7ffb58e70000-0x7ffb58f0dfff], minimal analysis 
+Loaded module: c:\windows\system32\rpcrt4.dll, address range [0x7ffb5a580000-0x7ffb5a69ffff], minimal analysis 
+Process c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe exited with code 0. Leak analysis starting. Please wait... 
+Completed analysis for c:\users\77swi\onedrive\study_more\master - ikw\numeryka kwantowa\budowabazy\x64\debug\budowabazy.exe 
+Application exit code: 0 
+Result file: C:\Users\77swi\OneDrive\STUDY_MORE\Master - IKW\Numeryka Kwantowa\BudowaBazy\BudowaBazy\My Inspector Results - BudowaBazy\r000mi1\r000mi1.inspxe 
+Analysis completed
+=== End: [2020/04/04 17:50:01] === 
